@@ -1,0 +1,546 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+StixGen_Ver-01
+</name>
+</assembly>
+<members>
+<member name="T:StixGen_Ver_01.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:StixGen_Ver_01.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:StixGen_Ver_01.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="T:StixGen_Ver_01.Database_24_2_230DataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:StixGen_Ver_01.Database_24_2_230DataSet.TTP_Query1DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:StixGen_Ver_01.Database_24_2_230DataSet.TTP_Query1Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:StixGen_Ver_01.Database_24_2_230DataSet.TTP_Query1RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:StixGen_Ver_01.Database_24_2_230DataSetTableAdapters.TTP_Query1TableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:StixGen_Ver_01.Database_24_2_230DataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:StixGen_Ver_01.Database_24_2_230DataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(StixGen_Ver_01.Database_24_2_230DataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:StixGen_Ver_01.Database_24_2_230DataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(StixGen_Ver_01.Database_24_2_230DataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:StixGen_Ver_01.Database_24_2_230DataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(StixGen_Ver_01.Database_24_2_230DataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:StixGen_Ver_01.Database_24_2_230DataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:StixGen_Ver_01.Database_24_2_230DataSetTableAdapters.TableAdapterManager.UpdateAll(StixGen_Ver_01.Database_24_2_230DataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:StixGen_Ver_01.Database_24_2_230DataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:StixGen_Ver_01.Database_24_2_230DataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:StixGen_Ver_01.Database_24_2_230DataSet1">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:StixGen_Ver_01.Database_24_2_230DataSet1.Campaign_Query1DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:StixGen_Ver_01.Database_24_2_230DataSet1.Campaign_Query1Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:StixGen_Ver_01.Database_24_2_230DataSet1.Campaign_Query1RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:StixGen_Ver_01.Database_24_2_230DataSet1TableAdapters.Campaign_Query1TableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:StixGen_Ver_01.Database_24_2_230DataSet1TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:StixGen_Ver_01.Database_24_2_230DataSet1TableAdapters.TableAdapterManager.UpdateUpdatedRows(StixGen_Ver_01.Database_24_2_230DataSet1,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:StixGen_Ver_01.Database_24_2_230DataSet1TableAdapters.TableAdapterManager.UpdateInsertedRows(StixGen_Ver_01.Database_24_2_230DataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:StixGen_Ver_01.Database_24_2_230DataSet1TableAdapters.TableAdapterManager.UpdateDeletedRows(StixGen_Ver_01.Database_24_2_230DataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:StixGen_Ver_01.Database_24_2_230DataSet1TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:StixGen_Ver_01.Database_24_2_230DataSet1TableAdapters.TableAdapterManager.UpdateAll(StixGen_Ver_01.Database_24_2_230DataSet1)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:StixGen_Ver_01.Database_24_2_230DataSet1TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:StixGen_Ver_01.Database_24_2_230DataSet1TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:StixGen_Ver_01.Database_24_2_230DataSet2">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:StixGen_Ver_01.Database_24_2_230DataSet2.Indicators_Query1DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:StixGen_Ver_01.Database_24_2_230DataSet2.Indicators_Query1Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:StixGen_Ver_01.Database_24_2_230DataSet2.Indicators_Query1RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:StixGen_Ver_01.Database_24_2_230DataSet2TableAdapters.Indicators_Query1TableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:StixGen_Ver_01.Database_24_2_230DataSet2TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:StixGen_Ver_01.Database_24_2_230DataSet2TableAdapters.TableAdapterManager.UpdateUpdatedRows(StixGen_Ver_01.Database_24_2_230DataSet2,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:StixGen_Ver_01.Database_24_2_230DataSet2TableAdapters.TableAdapterManager.UpdateInsertedRows(StixGen_Ver_01.Database_24_2_230DataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:StixGen_Ver_01.Database_24_2_230DataSet2TableAdapters.TableAdapterManager.UpdateDeletedRows(StixGen_Ver_01.Database_24_2_230DataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:StixGen_Ver_01.Database_24_2_230DataSet2TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:StixGen_Ver_01.Database_24_2_230DataSet2TableAdapters.TableAdapterManager.UpdateAll(StixGen_Ver_01.Database_24_2_230DataSet2)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:StixGen_Ver_01.Database_24_2_230DataSet2TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:StixGen_Ver_01.Database_24_2_230DataSet2TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:StixGen_Ver_01.Database_24_2_230DataSet3">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:StixGen_Ver_01.Database_24_2_230DataSet3.ThreatActor_Query1DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:StixGen_Ver_01.Database_24_2_230DataSet3.ThreatActor_Query1Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:StixGen_Ver_01.Database_24_2_230DataSet3.ThreatActor_Query1RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:StixGen_Ver_01.Database_24_2_230DataSet3TableAdapters.ThreatActor_Query1TableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:StixGen_Ver_01.Database_24_2_230DataSet3TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:StixGen_Ver_01.Database_24_2_230DataSet3TableAdapters.TableAdapterManager.UpdateUpdatedRows(StixGen_Ver_01.Database_24_2_230DataSet3,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:StixGen_Ver_01.Database_24_2_230DataSet3TableAdapters.TableAdapterManager.UpdateInsertedRows(StixGen_Ver_01.Database_24_2_230DataSet3,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:StixGen_Ver_01.Database_24_2_230DataSet3TableAdapters.TableAdapterManager.UpdateDeletedRows(StixGen_Ver_01.Database_24_2_230DataSet3,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:StixGen_Ver_01.Database_24_2_230DataSet3TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:StixGen_Ver_01.Database_24_2_230DataSet3TableAdapters.TableAdapterManager.UpdateAll(StixGen_Ver_01.Database_24_2_230DataSet3)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:StixGen_Ver_01.Database_24_2_230DataSet3TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:StixGen_Ver_01.Database_24_2_230DataSet3TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:StixGen_Ver_01.Database_24_2_230DataSet4">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:StixGen_Ver_01.Database_24_2_230DataSet4.IncidentsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:StixGen_Ver_01.Database_24_2_230DataSet4.IncidentsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:StixGen_Ver_01.Database_24_2_230DataSet4.IncidentsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:StixGen_Ver_01.Database_24_2_230DataSet4TableAdapters.IncidentsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:StixGen_Ver_01.Database_24_2_230DataSet4TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:StixGen_Ver_01.Database_24_2_230DataSet4TableAdapters.TableAdapterManager.UpdateUpdatedRows(StixGen_Ver_01.Database_24_2_230DataSet4,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:StixGen_Ver_01.Database_24_2_230DataSet4TableAdapters.TableAdapterManager.UpdateInsertedRows(StixGen_Ver_01.Database_24_2_230DataSet4,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:StixGen_Ver_01.Database_24_2_230DataSet4TableAdapters.TableAdapterManager.UpdateDeletedRows(StixGen_Ver_01.Database_24_2_230DataSet4,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:StixGen_Ver_01.Database_24_2_230DataSet4TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:StixGen_Ver_01.Database_24_2_230DataSet4TableAdapters.TableAdapterManager.UpdateAll(StixGen_Ver_01.Database_24_2_230DataSet4)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:StixGen_Ver_01.Database_24_2_230DataSet4TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:StixGen_Ver_01.Database_24_2_230DataSet4TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:StixGen_Ver_01.Database_24_2_230DataSet5">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:StixGen_Ver_01.Database_24_2_230DataSet5.CampaignDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:StixGen_Ver_01.Database_24_2_230DataSet5.CampaignRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:StixGen_Ver_01.Database_24_2_230DataSet5.CampaignRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:StixGen_Ver_01.Database_24_2_230DataSet5TableAdapters.CampaignTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:StixGen_Ver_01.Database_24_2_230DataSet5TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:StixGen_Ver_01.Database_24_2_230DataSet5TableAdapters.TableAdapterManager.UpdateUpdatedRows(StixGen_Ver_01.Database_24_2_230DataSet5,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:StixGen_Ver_01.Database_24_2_230DataSet5TableAdapters.TableAdapterManager.UpdateInsertedRows(StixGen_Ver_01.Database_24_2_230DataSet5,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:StixGen_Ver_01.Database_24_2_230DataSet5TableAdapters.TableAdapterManager.UpdateDeletedRows(StixGen_Ver_01.Database_24_2_230DataSet5,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:StixGen_Ver_01.Database_24_2_230DataSet5TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:StixGen_Ver_01.Database_24_2_230DataSet5TableAdapters.TableAdapterManager.UpdateAll(StixGen_Ver_01.Database_24_2_230DataSet5)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:StixGen_Ver_01.Database_24_2_230DataSet5TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:StixGen_Ver_01.Database_24_2_230DataSet5TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:StixGen_Ver_01.Database_24_2_230DataSet6">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:StixGen_Ver_01.Database_24_2_230DataSet6.ExploitDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:StixGen_Ver_01.Database_24_2_230DataSet6.ExploitRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:StixGen_Ver_01.Database_24_2_230DataSet6.ExploitRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:StixGen_Ver_01.Database_24_2_230DataSet6TableAdapters.ExploitTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:StixGen_Ver_01.Database_24_2_230DataSet6TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:StixGen_Ver_01.Database_24_2_230DataSet6TableAdapters.TableAdapterManager.UpdateUpdatedRows(StixGen_Ver_01.Database_24_2_230DataSet6,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:StixGen_Ver_01.Database_24_2_230DataSet6TableAdapters.TableAdapterManager.UpdateInsertedRows(StixGen_Ver_01.Database_24_2_230DataSet6,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:StixGen_Ver_01.Database_24_2_230DataSet6TableAdapters.TableAdapterManager.UpdateDeletedRows(StixGen_Ver_01.Database_24_2_230DataSet6,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:StixGen_Ver_01.Database_24_2_230DataSet6TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:StixGen_Ver_01.Database_24_2_230DataSet6TableAdapters.TableAdapterManager.UpdateAll(StixGen_Ver_01.Database_24_2_230DataSet6)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:StixGen_Ver_01.Database_24_2_230DataSet6TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:StixGen_Ver_01.Database_24_2_230DataSet6TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:StixGen_Ver_01.Database_24_2_230DataSet7">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:StixGen_Ver_01.Database_24_2_230DataSet7.ObservableDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:StixGen_Ver_01.Database_24_2_230DataSet7.ObservableRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:StixGen_Ver_01.Database_24_2_230DataSet7.ObservableRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:StixGen_Ver_01.Database_24_2_230DataSet7TableAdapters.ObservableTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:StixGen_Ver_01.Database_24_2_230DataSet7TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:StixGen_Ver_01.Database_24_2_230DataSet7TableAdapters.TableAdapterManager.UpdateUpdatedRows(StixGen_Ver_01.Database_24_2_230DataSet7,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:StixGen_Ver_01.Database_24_2_230DataSet7TableAdapters.TableAdapterManager.UpdateInsertedRows(StixGen_Ver_01.Database_24_2_230DataSet7,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:StixGen_Ver_01.Database_24_2_230DataSet7TableAdapters.TableAdapterManager.UpdateDeletedRows(StixGen_Ver_01.Database_24_2_230DataSet7,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:StixGen_Ver_01.Database_24_2_230DataSet7TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:StixGen_Ver_01.Database_24_2_230DataSet7TableAdapters.TableAdapterManager.UpdateAll(StixGen_Ver_01.Database_24_2_230DataSet7)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:StixGen_Ver_01.Database_24_2_230DataSet7TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:StixGen_Ver_01.Database_24_2_230DataSet7TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+</members>
+</doc>

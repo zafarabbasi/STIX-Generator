@@ -1,0 +1,244 @@
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\StixGen_Ver-01\StixGen_Ver-01\obj\Debug\StixGen_Ver_01.Form1.resources
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\StixGen_Ver-01\StixGen_Ver-01\obj\Debug\StixGen_Ver_01.Resources.resources
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\StixGen_Ver-01\StixGen_Ver-01\obj\Debug\StixGen_Ver-01.vbproj.GenerateResource.Cache
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\StixGen_Ver-01\StixGen_Ver-01\obj\Debug\StixGen_Ver-01.xml
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\StixGen_Ver-01\StixGen_Ver-01\bin\Debug\StixGen_Ver-01.exe.config
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\StixGen_Ver-01\StixGen_Ver-01\bin\Debug\StixGen_Ver-01.exe
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\StixGen_Ver-01\StixGen_Ver-01\bin\Debug\StixGen_Ver-01.pdb
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\StixGen_Ver-01\StixGen_Ver-01\bin\Debug\StixGen_Ver-01.xml
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\StixGen_Ver-01\StixGen_Ver-01\obj\Debug\StixGen_Ver-01.exe
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\StixGen_Ver-01\StixGen_Ver-01\obj\Debug\StixGen_Ver-01.pdb
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\StixGen_Ver-01\StixGen_Ver-01\obj\Debug\StixGen_Ver-01.vbprojResolveAssemblyReference.cache
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\StixGen_Ver-02\StixGen_Ver-01\bin\Debug\StixGen_Ver-01.exe.config
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\StixGen_Ver-02\StixGen_Ver-01\obj\Debug\StixGen_Ver-01.exe
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\StixGen_Ver-02\StixGen_Ver-01\obj\Debug\StixGen_Ver-01.xml
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\StixGen_Ver-02\StixGen_Ver-01\obj\Debug\StixGen_Ver-01.pdb
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\StixGen_Ver-02\StixGen_Ver-01\bin\Debug\StixGen_Ver-01.exe
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\StixGen_Ver-02\StixGen_Ver-01\bin\Debug\StixGen_Ver-01.pdb
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\StixGen_Ver-02\StixGen_Ver-01\bin\Debug\StixGen_Ver-01.xml
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\StixGen_Ver-02\StixGen_Ver-01\obj\Debug\StixGen_Ver-01.vbprojResolveAssemblyReference.cache
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\StixGen_Ver-02\StixGen_Ver-01\obj\Debug\StixGen_Ver_01.Form1.resources
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\StixGen_Ver-02\StixGen_Ver-01\obj\Debug\StixGen_Ver_01.Resources.resources
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\StixGen_Ver-02\StixGen_Ver-01\obj\Debug\StixGen_Ver-01.vbproj.GenerateResource.Cache
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\StixGen_Ver-04\StixGen_Ver-01\bin\Debug\StixGen_Ver-01.exe.config
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\StixGen_Ver-04\StixGen_Ver-01\obj\Debug\StixGen_Ver-01.exe
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\StixGen_Ver-04\StixGen_Ver-01\obj\Debug\StixGen_Ver-01.xml
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\StixGen_Ver-04\StixGen_Ver-01\obj\Debug\StixGen_Ver-01.pdb
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\StixGen_Ver-04\StixGen_Ver-01\obj\Debug\StixGen_Ver-01.vbprojResolveAssemblyReference.cache
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\StixGen_Ver-04\StixGen_Ver-01\obj\Debug\StixGen_Ver_01.Form1.resources
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\StixGen_Ver-04\StixGen_Ver-01\obj\Debug\StixGen_Ver_01.Resources.resources
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\StixGen_Ver-04\StixGen_Ver-01\obj\Debug\StixGen_Ver-01.vbproj.GenerateResource.Cache
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\StixGen_Ver-04\StixGen_Ver-01\bin\Debug\StixGen_Ver-01.exe
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\StixGen_Ver-04\StixGen_Ver-01\bin\Debug\StixGen_Ver-01.pdb
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\StixGen_Ver-04\StixGen_Ver-01\bin\Debug\StixGen_Ver-01.xml
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\StixGen_Ver-05\StixGen_Ver-01\bin\Debug\Database_24_2_230.accdb
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\StixGen_Ver-05\StixGen_Ver-01\bin\Debug\StixGen_Ver-01.exe.config
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\StixGen_Ver-05\StixGen_Ver-01\bin\Debug\StixGen_Ver-01.exe
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\StixGen_Ver-05\StixGen_Ver-01\bin\Debug\StixGen_Ver-01.pdb
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\StixGen_Ver-05\StixGen_Ver-01\bin\Debug\StixGen_Ver-01.xml
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\StixGen_Ver-05\StixGen_Ver-01\obj\Debug\StixGen_Ver_01.Form1.resources
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\StixGen_Ver-05\StixGen_Ver-01\obj\Debug\StixGen_Ver_01.Resources.resources
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\StixGen_Ver-05\StixGen_Ver-01\obj\Debug\StixGen_Ver-01.vbproj.GenerateResource.Cache
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\StixGen_Ver-05\StixGen_Ver-01\obj\Debug\StixGen_Ver-01.exe
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\StixGen_Ver-05\StixGen_Ver-01\obj\Debug\StixGen_Ver-01.xml
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\StixGen_Ver-05\StixGen_Ver-01\obj\Debug\StixGen_Ver-01.pdb
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\StixGen_Ver-05\StixGen_Ver-01\obj\Debug\StixGen_Ver-01.vbprojResolveAssemblyReference.cache
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\StixGen_Ver-06\StixGen_Ver-01\bin\Debug\Database_24_2_230.accdb
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\StixGen_Ver-06\StixGen_Ver-01\bin\Debug\StixGen_Ver-01.exe.config
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\StixGen_Ver-06\StixGen_Ver-01\bin\Debug\StixGen_Ver-01.exe
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\StixGen_Ver-06\StixGen_Ver-01\bin\Debug\StixGen_Ver-01.pdb
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\StixGen_Ver-06\StixGen_Ver-01\bin\Debug\StixGen_Ver-01.xml
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\StixGen_Ver-06\StixGen_Ver-01\obj\Debug\StixGen_Ver-01.vbprojResolveAssemblyReference.cache
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\StixGen_Ver-06\StixGen_Ver-01\obj\Debug\StixGen_Ver_01.Form1.resources
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\StixGen_Ver-06\StixGen_Ver-01\obj\Debug\StixGen_Ver_01.Resources.resources
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\StixGen_Ver-06\StixGen_Ver-01\obj\Debug\StixGen_Ver-01.vbproj.GenerateResource.Cache
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\StixGen_Ver-06\StixGen_Ver-01\obj\Debug\StixGen_Ver-01.exe
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\StixGen_Ver-06\StixGen_Ver-01\obj\Debug\StixGen_Ver-01.xml
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\StixGen_Ver-06\StixGen_Ver-01\obj\Debug\StixGen_Ver-01.pdb
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\StixGen_Ver-07\StixGen_Ver-01\bin\Debug\Database_24_2_230.accdb
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\StixGen_Ver-07\StixGen_Ver-01\bin\Debug\StixGen_Ver-01.exe.config
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\StixGen_Ver-07\StixGen_Ver-01\bin\Debug\StixGen_Ver-01.exe
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\StixGen_Ver-07\StixGen_Ver-01\bin\Debug\StixGen_Ver-01.pdb
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\StixGen_Ver-07\StixGen_Ver-01\bin\Debug\StixGen_Ver-01.xml
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\StixGen_Ver-07\StixGen_Ver-01\obj\Debug\StixGen_Ver_01.Form1.resources
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\StixGen_Ver-07\StixGen_Ver-01\obj\Debug\StixGen_Ver_01.Resources.resources
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\StixGen_Ver-07\StixGen_Ver-01\obj\Debug\StixGen_Ver-01.vbproj.GenerateResource.Cache
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\StixGen_Ver-07\StixGen_Ver-01\obj\Debug\StixGen_Ver-01.exe
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\StixGen_Ver-07\StixGen_Ver-01\obj\Debug\StixGen_Ver-01.xml
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\StixGen_Ver-07\StixGen_Ver-01\obj\Debug\StixGen_Ver-01.pdb
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\StixGen_Ver-08\StixGen_Ver-01\bin\Debug\StixGen_Ver-01.exe.config
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\StixGen_Ver-08\StixGen_Ver-01\obj\Debug\StixGen_Ver-01.exe
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\StixGen_Ver-08\StixGen_Ver-01\obj\Debug\StixGen_Ver-01.xml
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\StixGen_Ver-08\StixGen_Ver-01\obj\Debug\StixGen_Ver-01.pdb
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\StixGen_Ver-08\StixGen_Ver-01\bin\Debug\Database_24_2_230.accdb
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\StixGen_Ver-08\StixGen_Ver-01\bin\Debug\StixGen_Ver-01.exe
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\StixGen_Ver-08\StixGen_Ver-01\bin\Debug\StixGen_Ver-01.pdb
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\StixGen_Ver-08\StixGen_Ver-01\bin\Debug\StixGen_Ver-01.xml
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\StixGen_Ver-08\StixGen_Ver-01\obj\Debug\StixGen_Ver-01.vbprojResolveAssemblyReference.cache
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\StixGen_Ver-08\StixGen_Ver-01\obj\Debug\StixGen_Ver_01.Form1.resources
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\StixGen_Ver-08\StixGen_Ver-01\obj\Debug\StixGen_Ver_01.Resources.resources
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\StixGen_Ver-08\StixGen_Ver-01\obj\Debug\StixGen_Ver-01.vbproj.GenerateResource.Cache
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\StixGen_Ver-09\StixGen_Ver-01\bin\Debug\StixGen_Ver-01.exe.config
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\StixGen_Ver-09\StixGen_Ver-01\obj\Debug\StixGen_Ver-01.exe
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\StixGen_Ver-09\StixGen_Ver-01\obj\Debug\StixGen_Ver-01.xml
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\StixGen_Ver-09\StixGen_Ver-01\obj\Debug\StixGen_Ver-01.pdb
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\StixGen_Ver-09\StixGen_Ver-01\bin\Debug\Database_24_2_230.accdb
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\StixGen_Ver-09\StixGen_Ver-01\bin\Debug\StixGen_Ver-01.exe
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\StixGen_Ver-09\StixGen_Ver-01\bin\Debug\StixGen_Ver-01.pdb
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\StixGen_Ver-09\StixGen_Ver-01\bin\Debug\StixGen_Ver-01.xml
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\StixGen_Ver-09\StixGen_Ver-01\obj\Debug\StixGen_Ver-01.vbprojResolveAssemblyReference.cache
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\StixGen_Ver-09\StixGen_Ver-01\obj\Debug\StixGen_Ver_01.Form1.resources
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\StixGen_Ver-09\StixGen_Ver-01\obj\Debug\StixGen_Ver_01.Resources.resources
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\StixGen_Ver-09\StixGen_Ver-01\obj\Debug\StixGen_Ver-01.vbproj.GenerateResource.Cache
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\StixGen_Ver-09\StixGen_Ver-01\obj\Debug\StixGen_Ver_01.AboutBox1.resources
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\StixGen_Ver-10\StixGen_Ver-01\bin\Debug\Database_24_2_230.accdb
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\StixGen_Ver-10\StixGen_Ver-01\obj\Debug\StixGen_Ver_01.AboutBox1.resources
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\StixGen_Ver-10\StixGen_Ver-01\obj\Debug\StixGen_Ver_01.Form1.resources
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\StixGen_Ver-10\StixGen_Ver-01\obj\Debug\StixGen_Ver_01.Resources.resources
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\StixGen_Ver-10\StixGen_Ver-01\obj\Debug\StixGen_Ver-01.vbproj.GenerateResource.Cache
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\StixGen_Ver-10\StixGen_Ver-01\obj\Debug\StixGen_Ver-01.exe
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\StixGen_Ver-10\StixGen_Ver-01\obj\Debug\StixGen_Ver-01.xml
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\StixGen_Ver-10\StixGen_Ver-01\obj\Debug\StixGen_Ver-01.pdb
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\StixGen_Ver-10\StixGen_Ver-01\bin\Debug\StixGen_Ver-01.exe.config
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\StixGen_Ver-10\StixGen_Ver-01\bin\Debug\StixGen_Ver-01.exe
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\StixGen_Ver-10\StixGen_Ver-01\bin\Debug\StixGen_Ver-01.pdb
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\StixGen_Ver-10\StixGen_Ver-01\bin\Debug\StixGen_Ver-01.xml
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\StixGen_Ver-10\StixGen_Ver-01\obj\Debug\StixGen_Ver-01.vbprojResolveAssemblyReference.cache
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\Stix Gen\StixGen_Ver-12\StixGen_Ver-01\bin\Debug\StixGen_Ver-01.exe.config
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\Stix Gen\StixGen_Ver-12\StixGen_Ver-01\obj\Debug\StixGen_Ver-01.exe
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\Stix Gen\StixGen_Ver-12\StixGen_Ver-01\obj\Debug\StixGen_Ver-01.xml
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\Stix Gen\StixGen_Ver-12\StixGen_Ver-01\obj\Debug\StixGen_Ver-01.pdb
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\Stix Gen\StixGen_Ver-12\StixGen_Ver-01\obj\Debug\StixGen_Ver-01.vbprojResolveAssemblyReference.cache
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\Stix Gen\StixGen_Ver-12\StixGen_Ver-01\obj\Debug\StixGen_Ver_01.AboutBox1.resources
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\Stix Gen\StixGen_Ver-12\StixGen_Ver-01\obj\Debug\StixGen_Ver_01.Form1.resources
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\Stix Gen\StixGen_Ver-12\StixGen_Ver-01\obj\Debug\StixGen_Ver_01.Resources.resources
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\Stix Gen\StixGen_Ver-12\StixGen_Ver-01\obj\Debug\StixGen_Ver-01.vbproj.GenerateResource.Cache
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\Stix Gen\StixGen_Ver-12\StixGen_Ver-01\bin\Debug\Database_24_2_230.accdb
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\Stix Gen\StixGen_Ver-12\StixGen_Ver-01\bin\Debug\StixGen_Ver-01.exe
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\Stix Gen\StixGen_Ver-12\StixGen_Ver-01\bin\Debug\StixGen_Ver-01.pdb
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\Stix Gen\StixGen_Ver-12\StixGen_Ver-01\bin\Debug\StixGen_Ver-01.xml
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\Stix Gen\StixGen_Ver-13\StixGen_Ver-01\bin\Debug\StixGen_Ver-01.exe.config
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\Stix Gen\StixGen_Ver-13\StixGen_Ver-01\obj\Debug\StixGen_Ver-01.exe
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\Stix Gen\StixGen_Ver-13\StixGen_Ver-01\obj\Debug\StixGen_Ver-01.xml
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\Stix Gen\StixGen_Ver-13\StixGen_Ver-01\obj\Debug\StixGen_Ver-01.pdb
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\Stix Gen\StixGen_Ver-13\StixGen_Ver-01\bin\Debug\Database_24_2_230.accdb
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\Stix Gen\StixGen_Ver-13\StixGen_Ver-01\bin\Debug\StixGen_Ver-01.exe
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\Stix Gen\StixGen_Ver-13\StixGen_Ver-01\bin\Debug\StixGen_Ver-01.pdb
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\Stix Gen\StixGen_Ver-13\StixGen_Ver-01\bin\Debug\StixGen_Ver-01.xml
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\Stix Gen\StixGen_Ver-13\StixGen_Ver-01\obj\Debug\StixGen_Ver-01.vbprojResolveAssemblyReference.cache
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\Stix Gen\StixGen_Ver-13\StixGen_Ver-01\obj\Debug\StixGen_Ver_01.AboutBox1.resources
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\Stix Gen\StixGen_Ver-13\StixGen_Ver-01\obj\Debug\StixGen_Ver_01.Form1.resources
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\Stix Gen\StixGen_Ver-13\StixGen_Ver-01\obj\Debug\StixGen_Ver_01.Resources.resources
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\Stix Gen\StixGen_Ver-13\StixGen_Ver-01\obj\Debug\StixGen_Ver-01.vbproj.GenerateResource.Cache
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\Stix Gen\StixGen_Ver-14\StixGen_Ver-01\bin\Debug\StixGen_Ver-01.exe.config
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\Stix Gen\StixGen_Ver-14\StixGen_Ver-01\obj\Debug\StixGen_Ver-01.exe
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\Stix Gen\StixGen_Ver-14\StixGen_Ver-01\obj\Debug\StixGen_Ver-01.xml
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\Stix Gen\StixGen_Ver-14\StixGen_Ver-01\obj\Debug\StixGen_Ver-01.pdb
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\Stix Gen\StixGen_Ver-14\StixGen_Ver-01\bin\Debug\Database_24_2_230.accdb
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\Stix Gen\StixGen_Ver-14\StixGen_Ver-01\bin\Debug\StixGen_Ver-01.exe
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\Stix Gen\StixGen_Ver-14\StixGen_Ver-01\bin\Debug\StixGen_Ver-01.pdb
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\Stix Gen\StixGen_Ver-14\StixGen_Ver-01\bin\Debug\StixGen_Ver-01.xml
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\Stix Gen\StixGen_Ver-14\StixGen_Ver-01\obj\Debug\StixGen_Ver-01.vbprojResolveAssemblyReference.cache
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\Stix Gen\StixGen_Ver-14\StixGen_Ver-01\obj\Debug\StixGen_Ver_01.AboutBox1.resources
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\Stix Gen\StixGen_Ver-14\StixGen_Ver-01\obj\Debug\StixGen_Ver_01.Form1.resources
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\Stix Gen\StixGen_Ver-14\StixGen_Ver-01\obj\Debug\StixGen_Ver_01.Resources.resources
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\Stix Gen\StixGen_Ver-14\StixGen_Ver-01\obj\Debug\StixGen_Ver-01.vbproj.GenerateResource.Cache
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\Stix Gen\StixGen_Ver-16\StixGen_Ver-01\bin\Debug\StixGen_Ver-01.exe.config
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\Stix Gen\StixGen_Ver-16\StixGen_Ver-01\obj\Debug\StixGen_Ver-01.exe
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\Stix Gen\StixGen_Ver-16\StixGen_Ver-01\obj\Debug\StixGen_Ver-01.xml
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\Stix Gen\StixGen_Ver-16\StixGen_Ver-01\obj\Debug\StixGen_Ver-01.pdb
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\Stix Gen\StixGen_Ver-16\StixGen_Ver-01\bin\Debug\Database_24_2_230.accdb
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\Stix Gen\StixGen_Ver-16\StixGen_Ver-01\bin\Debug\StixGen_Ver-01.exe
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\Stix Gen\StixGen_Ver-16\StixGen_Ver-01\bin\Debug\StixGen_Ver-01.pdb
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\Stix Gen\StixGen_Ver-16\StixGen_Ver-01\bin\Debug\StixGen_Ver-01.xml
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\Stix Gen\StixGen_Ver-16\StixGen_Ver-01\obj\Debug\StixGen_Ver-01.vbprojResolveAssemblyReference.cache
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\Stix Gen\StixGen_Ver-16\StixGen_Ver-01\obj\Debug\StixGen_Ver_01.AboutBox1.resources
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\Stix Gen\StixGen_Ver-16\StixGen_Ver-01\obj\Debug\StixGen_Ver_01.Form1.resources
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\Stix Gen\StixGen_Ver-16\StixGen_Ver-01\obj\Debug\StixGen_Ver_01.Resources.resources
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\Stix Gen\StixGen_Ver-16\StixGen_Ver-01\obj\Debug\StixGen_Ver-01.vbproj.GenerateResource.Cache
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\Stix Gen\StixGen_Ver-17\StixGen_Ver-01\bin\Debug\StixGen_Ver-01.exe.config
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\Stix Gen\StixGen_Ver-17\StixGen_Ver-01\obj\Debug\StixGen_Ver-01.exe
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\Stix Gen\StixGen_Ver-17\StixGen_Ver-01\obj\Debug\StixGen_Ver-01.xml
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\Stix Gen\StixGen_Ver-17\StixGen_Ver-01\obj\Debug\StixGen_Ver-01.pdb
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\Stix Gen\StixGen_Ver-17\StixGen_Ver-01\bin\Debug\Database_24_2_230.accdb
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\Stix Gen\StixGen_Ver-17\StixGen_Ver-01\bin\Debug\StixGen_Ver-01.exe
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\Stix Gen\StixGen_Ver-17\StixGen_Ver-01\bin\Debug\StixGen_Ver-01.pdb
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\Stix Gen\StixGen_Ver-17\StixGen_Ver-01\bin\Debug\StixGen_Ver-01.xml
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\Stix Gen\StixGen_Ver-17\StixGen_Ver-01\obj\Debug\StixGen_Ver-01.vbprojResolveAssemblyReference.cache
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\Stix Gen\StixGen_Ver-17\StixGen_Ver-01\obj\Debug\StixGen_Ver_01.AboutBox1.resources
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\Stix Gen\StixGen_Ver-17\StixGen_Ver-01\obj\Debug\StixGen_Ver_01.Form1.resources
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\Stix Gen\StixGen_Ver-17\StixGen_Ver-01\obj\Debug\StixGen_Ver_01.Resources.resources
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\Stix Gen\StixGen_Ver-17\StixGen_Ver-01\obj\Debug\StixGen_Ver-01.vbproj.GenerateResource.Cache
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\Stix Gen\StixGen_Ver-18\StixGen_Ver-01\bin\Debug\StixGen_Ver-01.exe.config
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\Stix Gen\StixGen_Ver-18\StixGen_Ver-01\obj\Debug\StixGen_Ver-01.exe
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\Stix Gen\StixGen_Ver-18\StixGen_Ver-01\obj\Debug\StixGen_Ver-01.xml
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\Stix Gen\StixGen_Ver-18\StixGen_Ver-01\obj\Debug\StixGen_Ver-01.pdb
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\Stix Gen\StixGen_Ver-18\StixGen_Ver-01\bin\Debug\Database_24_2_230.accdb
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\Stix Gen\StixGen_Ver-18\StixGen_Ver-01\bin\Debug\StixGen_Ver-01.exe
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\Stix Gen\StixGen_Ver-18\StixGen_Ver-01\bin\Debug\StixGen_Ver-01.pdb
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\Stix Gen\StixGen_Ver-18\StixGen_Ver-01\bin\Debug\StixGen_Ver-01.xml
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\Stix Gen\StixGen_Ver-18\StixGen_Ver-01\obj\Debug\StixGen_Ver-01.vbprojResolveAssemblyReference.cache
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\Stix Gen\StixGen_Ver-18\StixGen_Ver-01\obj\Debug\StixGen_Ver_01.AboutBox1.resources
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\Stix Gen\StixGen_Ver-18\StixGen_Ver-01\obj\Debug\StixGen_Ver_01.Form1.resources
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\Stix Gen\StixGen_Ver-18\StixGen_Ver-01\obj\Debug\StixGen_Ver_01.Resources.resources
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\Stix Gen\StixGen_Ver-18\StixGen_Ver-01\obj\Debug\StixGen_Ver-01.vbproj.GenerateResource.Cache
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\Stix Gen\StixGen_Ver-19\StixGen_Ver-01\bin\Debug\StixGen_Ver-01.exe.config
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\Stix Gen\StixGen_Ver-19\StixGen_Ver-01\obj\Debug\StixGen_Ver-01.exe
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\Stix Gen\StixGen_Ver-19\StixGen_Ver-01\obj\Debug\StixGen_Ver-01.xml
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\Stix Gen\StixGen_Ver-19\StixGen_Ver-01\obj\Debug\StixGen_Ver-01.pdb
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\Stix Gen\StixGen_Ver-19\StixGen_Ver-01\bin\Debug\Database_24_2_230.accdb
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\Stix Gen\StixGen_Ver-19\StixGen_Ver-01\bin\Debug\StixGen_Ver-01.exe
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\Stix Gen\StixGen_Ver-19\StixGen_Ver-01\bin\Debug\StixGen_Ver-01.pdb
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\Stix Gen\StixGen_Ver-19\StixGen_Ver-01\bin\Debug\StixGen_Ver-01.xml
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\Stix Gen\StixGen_Ver-19\StixGen_Ver-01\obj\Debug\StixGen_Ver-01.vbprojResolveAssemblyReference.cache
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\Stix Gen\StixGen_Ver-19\StixGen_Ver-01\obj\Debug\StixGen_Ver_01.AboutBox1.resources
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\Stix Gen\StixGen_Ver-19\StixGen_Ver-01\obj\Debug\StixGen_Ver_01.Form1.resources
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\Stix Gen\StixGen_Ver-19\StixGen_Ver-01\obj\Debug\StixGen_Ver_01.Resources.resources
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\Stix Gen\StixGen_Ver-19\StixGen_Ver-01\obj\Debug\StixGen_Ver-01.vbproj.GenerateResource.Cache
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\Stix Gen\StixGen_Ver-20\StixGen_Ver-01\bin\Debug\StixGen_Ver-01.exe.config
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\Stix Gen\StixGen_Ver-20\StixGen_Ver-01\obj\Debug\StixGen_Ver-01.exe
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\Stix Gen\StixGen_Ver-20\StixGen_Ver-01\obj\Debug\StixGen_Ver-01.xml
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\Stix Gen\StixGen_Ver-20\StixGen_Ver-01\obj\Debug\StixGen_Ver-01.pdb
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\Stix Gen\StixGen_Ver-20\StixGen_Ver-01\obj\Debug\StixGen_Ver-01.vbprojResolveAssemblyReference.cache
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\Stix Gen\StixGen_Ver-20\StixGen_Ver-01\obj\Debug\StixGen_Ver_01.AboutBox1.resources
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\Stix Gen\StixGen_Ver-20\StixGen_Ver-01\obj\Debug\StixGen_Ver_01.Form1.resources
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\Stix Gen\StixGen_Ver-20\StixGen_Ver-01\obj\Debug\StixGen_Ver_01.Resources.resources
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\Stix Gen\StixGen_Ver-20\StixGen_Ver-01\obj\Debug\StixGen_Ver-01.vbproj.GenerateResource.Cache
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\Stix Gen\StixGen_Ver-20\StixGen_Ver-01\bin\Debug\Database_24_2_230.accdb
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\Stix Gen\StixGen_Ver-20\StixGen_Ver-01\bin\Debug\StixGen_Ver-01.exe
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\Stix Gen\StixGen_Ver-20\StixGen_Ver-01\bin\Debug\StixGen_Ver-01.pdb
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\_______Reasoning & Inferencing\17_____StixGen\Project\Stix Gen\StixGen_Ver-20\StixGen_Ver-01\bin\Debug\StixGen_Ver-01.xml
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\2______Second Paper\17_____StixGen\Project\Stix Gen\StixGen_Ver-20\StixGen_Ver-01\bin\Debug\StixGen_Ver-01.exe.config
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\2______Second Paper\17_____StixGen\Project\Stix Gen\StixGen_Ver-20\StixGen_Ver-01\obj\Debug\StixGen_Ver-01.exe
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\2______Second Paper\17_____StixGen\Project\Stix Gen\StixGen_Ver-20\StixGen_Ver-01\obj\Debug\StixGen_Ver-01.xml
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\2______Second Paper\17_____StixGen\Project\Stix Gen\StixGen_Ver-20\StixGen_Ver-01\obj\Debug\StixGen_Ver-01.pdb
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\2______Second Paper\17_____StixGen\Project\Stix Gen\StixGen_Ver-20\StixGen_Ver-01\bin\Debug\Database_24_2_230.accdb
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\2______Second Paper\17_____StixGen\Project\Stix Gen\StixGen_Ver-20\StixGen_Ver-01\bin\Debug\StixGen_Ver-01.exe
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\2______Second Paper\17_____StixGen\Project\Stix Gen\StixGen_Ver-20\StixGen_Ver-01\bin\Debug\StixGen_Ver-01.pdb
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\2______Second Paper\17_____StixGen\Project\Stix Gen\StixGen_Ver-20\StixGen_Ver-01\bin\Debug\StixGen_Ver-01.xml
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\2______Second Paper\17_____StixGen\Project\Stix Gen\StixGen_Ver-20\StixGen_Ver-01\obj\Debug\StixGen_Ver-01.vbprojResolveAssemblyReference.cache
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\2______Second Paper\17_____StixGen\Project\Stix Gen\StixGen_Ver-20\StixGen_Ver-01\obj\Debug\StixGen_Ver_01.AboutBox1.resources
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\2______Second Paper\17_____StixGen\Project\Stix Gen\StixGen_Ver-20\StixGen_Ver-01\obj\Debug\StixGen_Ver_01.Form1.resources
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\2______Second Paper\17_____StixGen\Project\Stix Gen\StixGen_Ver-20\StixGen_Ver-01\obj\Debug\StixGen_Ver_01.Resources.resources
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\2______Second Paper\17_____StixGen\Project\Stix Gen\StixGen_Ver-20\StixGen_Ver-01\obj\Debug\StixGen_Ver-01.vbproj.GenerateResource.Cache
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\2______Second Paper\17_____StixGen\Project\Stix Gen\StixGen_Ver-21\StixGen_Ver-01\bin\Debug\Database_24_2_230.accdb
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\2______Second Paper\17_____StixGen\Project\Stix Gen\StixGen_Ver-21\StixGen_Ver-01\bin\Debug\StixGen_Ver-01.exe.config
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\2______Second Paper\17_____StixGen\Project\Stix Gen\StixGen_Ver-21\StixGen_Ver-01\bin\Debug\StixGen_Ver-01.exe
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\2______Second Paper\17_____StixGen\Project\Stix Gen\StixGen_Ver-21\StixGen_Ver-01\bin\Debug\StixGen_Ver-01.pdb
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\2______Second Paper\17_____StixGen\Project\Stix Gen\StixGen_Ver-21\StixGen_Ver-01\bin\Debug\StixGen_Ver-01.xml
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\2______Second Paper\17_____StixGen\Project\Stix Gen\StixGen_Ver-21\StixGen_Ver-01\obj\Debug\StixGen_Ver-01.vbprojResolveAssemblyReference.cache
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\2______Second Paper\17_____StixGen\Project\Stix Gen\StixGen_Ver-21\StixGen_Ver-01\obj\Debug\StixGen_Ver_01.AboutBox1.resources
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\2______Second Paper\17_____StixGen\Project\Stix Gen\StixGen_Ver-21\StixGen_Ver-01\obj\Debug\StixGen_Ver_01.Form1.resources
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\2______Second Paper\17_____StixGen\Project\Stix Gen\StixGen_Ver-21\StixGen_Ver-01\obj\Debug\StixGen_Ver_01.Resources.resources
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\2______Second Paper\17_____StixGen\Project\Stix Gen\StixGen_Ver-21\StixGen_Ver-01\obj\Debug\StixGen_Ver-01.vbproj.GenerateResource.Cache
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\2______Second Paper\17_____StixGen\Project\Stix Gen\StixGen_Ver-21\StixGen_Ver-01\obj\Debug\StixGen_Ver-01.exe
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\2______Second Paper\17_____StixGen\Project\Stix Gen\StixGen_Ver-21\StixGen_Ver-01\obj\Debug\StixGen_Ver-01.xml
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\2______Second Paper\17_____StixGen\Project\Stix Gen\StixGen_Ver-21\StixGen_Ver-01\obj\Debug\StixGen_Ver-01.pdb
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\2______Second Paper\17_____StixGen\Project\1____Stix Gen\StixGen_Ver-21\StixGen_Ver-01\bin\Debug\StixGen_Ver-01.exe.config
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\2______Second Paper\17_____StixGen\Project\1____Stix Gen\StixGen_Ver-21\StixGen_Ver-01\obj\Debug\StixGen_Ver-01.exe
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\2______Second Paper\17_____StixGen\Project\1____Stix Gen\StixGen_Ver-21\StixGen_Ver-01\obj\Debug\StixGen_Ver-01.xml
+E:\PhD Corse Work\8     PhD Research\6_____Malware\0____Paper\2______Second Paper\17_____StixGen\Project\1____Stix Gen\StixGen_Ver-21\StixGen_Ver-01\obj\Debug\StixGen_Ver-01.pdb
+E:\PhD Corse Work\8     PhD Research\0_____Paper Mine\2______Second Paper\17_____StixGen\Project\1____Stix Gen\Things For Thesis Appendixes\StixGen_Ver-21\StixGen_Ver-01\bin\Debug\StixGen_Ver-01.exe.config
+E:\PhD Corse Work\8     PhD Research\0_____Paper Mine\2______Second Paper\17_____StixGen\Project\1____Stix Gen\Things For Thesis Appendixes\StixGen_Ver-21\StixGen_Ver-01\obj\Debug\StixGen_Ver-01.exe
+E:\PhD Corse Work\8     PhD Research\0_____Paper Mine\2______Second Paper\17_____StixGen\Project\1____Stix Gen\Things For Thesis Appendixes\StixGen_Ver-21\StixGen_Ver-01\obj\Debug\StixGen_Ver-01.xml
+E:\PhD Corse Work\8     PhD Research\0_____Paper Mine\2______Second Paper\17_____StixGen\Project\1____Stix Gen\Things For Thesis Appendixes\StixGen_Ver-21\StixGen_Ver-01\obj\Debug\StixGen_Ver-01.pdb

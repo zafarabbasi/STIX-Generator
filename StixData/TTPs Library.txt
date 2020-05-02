@@ -1,0 +1,789 @@
+	//********************************************************************************************************************//
+
+     //^^^^^^^^^^^^^^^TTP for handling threat actor ^^^^^^^^^^^^^^^//
+     <stix:TTPs>
+        <stix:TTP id="apt:ttp-591f0cb7-d66f-4e14-a8e6-5927b597f920" xsi:type="ttp:TTPType">
+            <ttp:Title> TTP HAndling </ttp:Title>
+	</stix:TTP>
+	//*****************************************************************//
+
+		// *******************************************************************************************************//		
+		/// Malware Family /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+		// *******************************************************************************************************//	
+
+		//%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%//
+		/// TTP declared for Using Exploit Target  and call its Course of action /////////////////////////////////////////////////////////
+		// *******************************************************************************************************//	
+		<stix:TTP xsi:type="ttp:TTPType" id="ttp_Exploit">
+		    <ttp:Title> Exploit Target </ttp:Title>     
+		    <ttp:Exploit_Targets>
+		        <stixCommon:Exploit_Target idref="apt:et-8b655a6f-e70c-4e3f-b21a-f663b5732f97"/>
+		    </ttp:Exploit_Targets>
+		</stix:TTP>
+		
+
+		//%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%//
+		/// Memory Scraping Tool /////////////////////////////////////////////////////////////////////////////////////////////////////////////
+		// *******************************************************************************************************//	
+		<stix:TTP timestamp="2015-05-15T09:00:00.000000Z" id="apt:ttp_MemoryScraping" xsi:type="ttp:TTPType">
+			<ttp:Title>Memory Scraping Tool </ttp:Title>
+			<ttp:Behavior>
+				<ttp:Malware>
+					<ttp:Malware_Instance>
+						<ttp:Type>Backdoor</ttp:Type>
+						<ttp:Name>MemScraper</ttp:Name>
+							<ttp:Description structuring_format="HTML5"><![CDATA[<!DOCTYPE html>
+								<html><body>
+									<p>
+										 Perform Memory Scrapping.
+									</P>
+								</body></html>]]>
+							</ttp:Description>
+					</ttp:Malware_Instance>
+				</ttp:Malware>
+               			<ttp:Attack_Patterns>
+               			     <ttp:Attack_Pattern>
+           		 		       <ttp:Description>Phishing</ttp:Description>
+      		         	     </ttp:Attack_Pattern>
+      			        </ttp:Attack_Patterns>				
+			</ttp:Behavior>
+			<ttp:Resources>
+				<ttp:Tools>
+					<ttp:Tool>
+						<cyboxCommon:Name> Tool-123 </cyboxCommon:Name>
+							<cyboxCommon:Description structuring_format="HTML5"><![CDATA[<!DOCTYPE html>
+								<html><body>
+									<p>This program extracts User data from ram.</P>
+							</body></html>]]>
+						</cyboxCommon:Description>
+					</ttp:Tool>
+				</ttp:Tools>
+			</ttp:Resources>
+		</stix:TTP>
+	
+		//%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%//
+		/// KeyLogger /////////////////////////////////////////////////////////////////////////////////////////////////////////////
+		<stix:TTP timestamp="2015-05-15T09:00:00.000000Z" id="apt:ttp_KeyLogging" xsi:type="ttp:TTPType">
+			<ttp:Title>Key Logging Tool</ttp:Title>
+			<ttp:Behavior>
+				<ttp:Malware>
+					<ttp:Malware_Instance>
+						<ttp:Type>Relay</ttp:Type>
+						<ttp:Name>KeyLogger</ttp:Name>
+						<ttp:Description structuring_format="HTML5"><![CDATA[<!DOCTYPE html>
+						<html>
+							<body>
+								<p>
+								PErforms Key Logging.
+                					</P>
+							</body>
+						</html>]]>
+						</ttp:Description>
+					</ttp:Malware_Instance>
+				</ttp:Malware>
+			</ttp:Behavior>
+		</stix:TTP>
+		//%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%//
+		/// Stolen Information Locally Stored ////////////////////////////////////////////////////////////////////////////////////////////
+		<stix:TTP timestamp="2015-05-15T09:00:00.000000Z" id="apt:ttp_StolenInfoLocallyStored" xsi:type="ttp:TTPType">
+			<ttp:Title>Stolen Info Locally Stored</ttp:Title>
+			<ttp:Behavior>
+				<ttp:Malware>
+					<ttp:Malware_Instance>
+						<ttp:Type>Relay</ttp:Type>
+						<ttp:Name>FTP</ttp:Name>
+						<ttp:Description structuring_format="HTML5"><![CDATA[<!DOCTYPE html>
+						<html>
+							<body>
+								<p>
+								Locally Stored Stolen Information.
+                					</P>
+							</body>
+						</html>]]>
+						</ttp:Description>
+					</ttp:Malware_Instance>
+				</ttp:Malware>
+			</ttp:Behavior>
+		</stix:TTP>
+		//%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%//
+		/// Encrypted Data /////////////////////////////////////////////////////////////////////////////////////////////////////////////
+		<stix:TTP timestamp="2015-05-15T09:00:00.000000Z" id="apt:ttp_EncryptedData" xsi:type="ttp:TTPType">
+			<ttp:Title>Encrypted Data </ttp:Title>
+			<ttp:Behavior>
+				<ttp:Malware>
+					<ttp:Malware_Instance>
+						<ttp:Type>Relay</ttp:Type>
+						<ttp:Name>Encrypt</ttp:Name>
+						<ttp:Description structuring_format="HTML5"><![CDATA[<!DOCTYPE html>
+						<html>
+							<body>
+								<p>
+								Encrypted Data .
+                					</P>
+							</body>
+						</html>]]>
+						</ttp:Description>
+					</ttp:Malware_Instance>
+				</ttp:Malware>
+			</ttp:Behavior>
+		</stix:TTP>
+		//%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%//
+		/// Screenshot/////////////////////////////////////////////////////////////////////////////////////////////////////////////
+		<stix:TTP  id="apt:ttp_Screenshot" xsi:type="ttp:TTPType">
+			<ttp:Title>Screenshot</ttp:Title>
+			<ttp:Behavior>
+				<ttp:Malware>
+					<ttp:Malware_Instance>
+						<ttp:Type>Relay</ttp:Type>
+						<ttp:Name>KeyLogger</ttp:Name>
+						<ttp:Description structuring_format="HTML5"><![CDATA[<!DOCTYPE html>
+						<html>
+							<body>
+								<p>
+								PErforms Key Logging.
+                					</P>
+							</body>
+						</html>]]>
+						</ttp:Description>
+					</ttp:Malware_Instance>
+				</ttp:Malware>
+			</ttp:Behavior>
+		</stix:TTP>
+		//%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%//
+		/// File Stealing/////////////////////////////////////////////////////////////////////////////////////////////////////////////
+		<stix:TTP  id="apt:ttp_FileStealing" xsi:type="ttp:TTPType">
+			<ttp:Title>File Stealing</ttp:Title>
+			<ttp:Behavior>
+				<ttp:Malware>
+					<ttp:Malware_Instance>
+						<ttp:Type>Relay</ttp:Type>
+						<ttp:Name>KeyLogger</ttp:Name>
+						<ttp:Description structuring_format="HTML5"><![CDATA[<!DOCTYPE html>
+						<html>
+							<body>
+								<p>
+								PErforms Key Logging.
+                					</P>
+							</body>
+						</html>]]>
+						</ttp:Description>
+					</ttp:Malware_Instance>
+				</ttp:Malware>
+			</ttp:Behavior>
+		</stix:TTP>
+		//%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%//
+		/// Win Local Sys Pass Auth/////////////////////////////////////////////////////////////////////////////////////////////////////////////
+		<stix:TTP  id="apt:ttp_WinLocalSysPassAuth" xsi:type="ttp:TTPType">
+			<ttp:Title>Win Local Sys Pass Auth</ttp:Title>
+			<ttp:Behavior>
+				<ttp:Malware>
+					<ttp:Malware_Instance>
+						<ttp:Type>Relay</ttp:Type>
+						<ttp:Name>KeyLogger</ttp:Name>
+						<ttp:Description structuring_format="HTML5"><![CDATA[<!DOCTYPE html>
+						<html>
+							<body>
+								<p>
+								PErforms Key Logging.
+                					</P>
+							</body>
+						</html>]]>
+						</ttp:Description>
+					</ttp:Malware_Instance>
+				</ttp:Malware>
+			</ttp:Behavior>
+		</stix:TTP>
+		//%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%//
+		/// Malicious Scripts/////////////////////////////////////////////////////////////////////////////////////////////////////////////
+		<stix:TTP  id="apt:ttp_MaliciousScripts" xsi:type="ttp:TTPType">
+			<ttp:Title>Malicious Scripts</ttp:Title>
+			<ttp:Behavior>
+				<ttp:Malware>
+					<ttp:Malware_Instance>
+						<ttp:Type>Relay</ttp:Type>
+						<ttp:Name>KeyLogger</ttp:Name>
+						<ttp:Description structuring_format="HTML5"><![CDATA[<!DOCTYPE html>
+						<html>
+							<body>
+								<p>
+								PErforms Key Logging.
+                					</P>
+							</body>
+						</html>]]>
+						</ttp:Description>
+					</ttp:Malware_Instance>
+				</ttp:Malware>
+			</ttp:Behavior>
+		</stix:TTP>
+		//%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%//
+		/// Sniffing /////////////////////////////////////////////////////////////////////////////////////////////////////////////
+		<stix:TTP  id="apt:ttp_Sniffing" xsi:type="ttp:TTPType">
+			<ttp:Title>Sniffing</ttp:Title>
+			<ttp:Behavior>
+				<ttp:Malware>
+					<ttp:Malware_Instance>
+						<ttp:Type>Relay</ttp:Type>
+						<ttp:Name>KeyLogger</ttp:Name>
+						<ttp:Description structuring_format="HTML5"><![CDATA[<!DOCTYPE html>
+						<html>
+							<body>
+								<p>
+								PErforms Key Logging.
+                					</P>
+							</body>
+						</html>]]>
+						</ttp:Description>
+					</ttp:Malware_Instance>
+				</ttp:Malware>
+			</ttp:Behavior>
+		</stix:TTP>
+//****************************************************************************************************************//
+//***********************************************************************************************************//
+// Incidents   ///////////////////////////////////////////////////////////////////////////////////////////////
+//***********************************************************************************************************//
+
+
+//***************************** Black POS *******************************************************************//
+<stix:Incidents>
+	<stix:Incident id="apt:incident-Victim-Target" timestamp="2014-09-15T14:37:54.297669+00:00" 	xsi:type='incident:IncidentType' version="1.2">
+            <incident:Title>Victim - Target </incident:Title>
+        	 <incident:COA_Requested>
+         <stixCommon:Course_Of_Action idref="apt:courseofaction-70b3d5f6-374b-4488-8688-729b6eedac5b"/>
+           	 </incident:COA_Requested>
+        	 <incident:COA_Requested>
+         <stixCommon:Course_Of_Action idref="apt:courseofaction-71b3d5f6-374b-4488-8688-729b6eedac5b"/>
+           	 </incident:COA_Requested>
+        	 <incident:COA_Requested>
+         <stixCommon:Course_Of_Action idref="apt:courseofaction-72b3d5f6-374b-4488-8688-729b6eedac5b"/>
+           	 </incident:COA_Requested>
+        </stix:Incident>
+</stix:Incidents>
+<stix:Incidents>
+	<stix:Incident id="apt:incident-Breaches-40M" timestamp="2014-09-15T14:37:54.297669+00:00" 	xsi:type='incident:IncidentType' version="1.2">
+            <incident:Title>Breaches - 40M  </incident:Title>
+               <incident:Related_Observables>
+			         <incident:Related_Observable idref="apt:observable-6d9697fa-38a2-4ba7-adda-a6eb268099fa"/>
+               </incident:Related_Observables>
+        </stix:Incident>
+</stix:Incidents>
+//***************************** Backoff POS *******************************************************************//
+<stix:Incidents>
+	<stix:Incident id="apt:incident-Victim-USPostalService" timestamp="2014-09-15T14:37:54.297669+00:00" 	xsi:type='incident:IncidentType' version="1.2">
+           <incident:Title>Victim - USA Postal Service </incident:Title>
+        	 <incident:COA_Requested>
+         <stixCommon:Course_Of_Action idref="apt:courseofaction-70b3d5f6-374b-4488-8688-729b6eedac5b"/>
+           	 </incident:COA_Requested>
+        	 <incident:COA_Requested>
+         <stixCommon:Course_Of_Action idref="apt:courseofaction-71b3d5f6-374b-4488-8688-729b6eedac5b"/>
+           	 </incident:COA_Requested>
+        	 <incident:COA_Requested>
+         <stixCommon:Course_Of_Action idref="apt:courseofaction-72b3d5f6-374b-4488-8688-729b6eedac5b"/>
+           	 </incident:COA_Requested>
+        </stix:Incident>
+</stix:Incidents>
+<stix:Incidents>
+	<stix:Incident id="apt:incident-Breaches-104K" timestamp="2014-09-15T14:37:54.297669+00:00" 	xsi:type='incident:IncidentType' version="1.2">
+        <incident:Title>Breaches - 104K  </incident:Title>
+        </stix:Incident>
+</stix:Incidents>
+//***************************** Malum POS *******************************************************************//
+<stix:Incidents>
+	<stix:Incident id="apt:incident-Victim-Hotels-Hayat" timestamp="2014-09-15T14:37:54.297669+00:00" 	xsi:type='incident:IncidentType' version="1.2">
+            <incident:Title>Victim - Hotels e.g Hayat</incident:Title>
+        	 <incident:COA_Requested>
+         <stixCommon:Course_Of_Action idref="apt:courseofaction-70b3d5f6-374b-4488-8688-729b6eedac5b"/>
+           	 </incident:COA_Requested>
+        	 <incident:COA_Requested>
+         <stixCommon:Course_Of_Action idref="apt:courseofaction-71b3d5f6-374b-4488-8688-729b6eedac5b"/>
+           	 </incident:COA_Requested>
+        	 <incident:COA_Requested>
+         <stixCommon:Course_Of_Action idref="apt:courseofaction-72b3d5f6-374b-4488-8688-729b6eedac5b"/>
+           	 </incident:COA_Requested>
+        </stix:Incident>
+</stix:Incidents>
+<stix:Incidents>
+	<stix:Incident id="apt:incident-Breaches-250" timestamp="2014-09-15T14:37:54.297669+00:00" 	xsi:type='incident:IncidentType' version="1.2">
+            <incident:Title>Breaches - 250  </incident:Title>
+        </stix:Incident>
+</stix:Incidents>
+//***************************** Punkey POS *******************************************************************//
+<stix:Incidents>
+	<stix:Incident id="apt:incident-Victim-Resturants-JJohns" timestamp="2014-09-15T14:37:54.297669+00:00" 	xsi:type='incident:IncidentType' version="1.2">
+            <incident:Title>Victim - Resturent e.g. J John's </incident:Title>
+        	 <incident:COA_Requested>
+         <stixCommon:Course_Of_Action idref="apt:courseofaction-70b3d5f6-374b-4488-8688-729b6eedac5b"/>
+           	 </incident:COA_Requested>
+        	 <incident:COA_Requested>
+         <stixCommon:Course_Of_Action idref="apt:courseofaction-71b3d5f6-374b-4488-8688-729b6eedac5b"/>
+           	 </incident:COA_Requested>
+        	 <incident:COA_Requested>
+         <stixCommon:Course_Of_Action idref="apt:courseofaction-72b3d5f6-374b-4488-8688-729b6eedac5b"/>
+           	 </incident:COA_Requested>
+        </stix:Incident>
+</stix:Incidents>
+//***************************** Fighter POS *******************************************************************//
+<stix:Incidents>
+	<stix:Incident id="apt:incident-Victim-BrazilionOrganizations" timestamp="2014-09-15T14:37:54.297669+00:00" 	xsi:type='incident:IncidentType' version="1.2">
+            <incident:Title>Victim - Brazilion Organizations</incident:Title>
+        	 <incident:COA_Requested>
+         <stixCommon:Course_Of_Action idref="apt:courseofaction-70b3d5f6-374b-4488-8688-729b6eedac5b"/>
+           	 </incident:COA_Requested>
+        	 <incident:COA_Requested>
+         <stixCommon:Course_Of_Action idref="apt:courseofaction-71b3d5f6-374b-4488-8688-729b6eedac5b"/>
+           	 </incident:COA_Requested>
+        	 <incident:COA_Requested>
+         <stixCommon:Course_Of_Action idref="apt:courseofaction-72b3d5f6-374b-4488-8688-729b6eedac5b"/>
+           	 </incident:COA_Requested>
+        </stix:Incident>
+</stix:Incidents>
+<stix:Incidents>
+	<stix:Incident id="apt:incident-Breaches-22K" timestamp="2014-09-15T14:37:54.297669+00:00" 	xsi:type='incident:IncidentType' version="1.2">
+            <incident:Title> Breaches - 22K  </incident:Title>
+     
+            </stix:Incident>
+</stix:Incidents>
+
+//***********************************************************************************************************//
+<stix:Incidents>
+	<stix:Incident id="apt:incident-Victim-HospitalityandRetialIndustry" timestamp="2014-09-15T14:37:54.297669+00:00" 	xsi:type='incident:IncidentType' version="1.2">
+            <incident:Title> Victim - Hospitality and Retial Industry </incident:Title>
+     
+            </stix:Incident>
+</stix:Incidents>
+//***********************************************************************************************************//
+<stix:Incidents>
+	<stix:Incident id="apt:incident-Victim-Ukraine" timestamp="2014-09-15T14:37:54.297669+00:00" 	xsi:type='incident:IncidentType' version="1.2">
+            <incident:Title> Victim-Ukraine </incident:Title>
+     
+            </stix:Incident>
+</stix:Incidents>
+//***********************************************************************************************************//
+<stix:Incidents>
+	<stix:Incident id="apt:incident-Victim-USAElection" timestamp="2014-09-15T14:37:54.297669+00:00" 	xsi:type='incident:IncidentType' version="1.2">
+            <incident:Title> Victim - USA Election  </incident:Title>
+     
+            </stix:Incident>
+</stix:Incidents>
+//***********************************************************************************************************//
+<stix:Incidents>
+	<stix:Incident id="apt:incident-Victim-IranIsraelandPalestinian" timestamp="2014-09-15T14:37:54.297669+00:00" 	xsi:type='incident:IncidentType' version="1.2">
+            <incident:Title> Victim - Iran  Israel and Palestinian</incident:Title>
+     
+            </stix:Incident>
+</stix:Incidents>
+
+//***********************************************************************************************************//
+<stix:Incidents>
+	<stix:Incident id="apt:incident-Victim-EUandBelgianTeleComm" timestamp="2014-09-15T14:37:54.297669+00:00" 	xsi:type='incident:IncidentType' version="1.2">
+            <incident:Title> Victim - EU and Belgian TeleComm</incident:Title>
+     
+            </stix:Incident>
+</stix:Incidents>
+
+//***********************************************************************************************************//
+//***********************************************************************************************************//
+// Indicators   ///////////////////////////////////////////////////////////////////////////////////////////////
+//***********************************************************************************************************//
+ <stix:Indicators>
+	  //************************************************************************************************************/
+        <stix:Indicator id="apt:indicator-Protocol-FTP" xsi:type="indicator:IndicatorType">
+            <indicator:Title>Protocol - FTP  </indicator:Title>
+	       <indicator:Type xsi:type="stixVocabs:IndicatorTypeVocab-1.0"> </indicator:Type>
+            <indicator:Observable idref="apt:observable-6d9697fa-38a2-4ba7-adda-a6eb268099fa"/>
+         </stix:Indicator>
+
+	  //************************************************************************************************************/
+        <stix:Indicator id="apt:indicator-Protocol-DNS" xsi:type="indicator:IndicatorType">
+            <indicator:Title>Protocol - DNS </indicator:Title>
+	       <indicator:Type xsi:type="stixVocabs:IndicatorTypeVocab-1.0"> </indicator:Type>
+         </stix:Indicator>
+	  //************************************************************************************************************/
+        <stix:Indicator id="apt:indicator-Protocol-HTTPPOST" xsi:type="indicator:IndicatorType">
+            <indicator:Title>Protocol - HTTP Post  </indicator:Title>
+	       <indicator:Type xsi:type="stixVocabs:IndicatorTypeVocab-1.0"> </indicator:Type>
+         </stix:Indicator>
+	  //************************************************************************************************************/
+        <stix:Indicator id="apt:indicator-Protocol-HTTPS" xsi:type="indicator:IndicatorType">
+            <indicator:Title>Protocol - HTTPS </indicator:Title>
+	       <indicator:Type xsi:type="stixVocabs:IndicatorTypeVocab-1.0"> </indicator:Type>
+         </stix:Indicator>
+
+	  //************************************************************************************************************/
+        <stix:Indicator id="apt:indicator-Protocol-WebDav" xsi:type="indicator:IndicatorType">
+            <indicator:Title>Protocol - WebDav </indicator:Title>
+	       <indicator:Type xsi:type="stixVocabs:IndicatorTypeVocab-1.0"> </indicator:Type>
+         </stix:Indicator>
+	  //************************************************************************************************************/
+        <stix:Indicator id="apt:indicator-Protocol-SMTP" xsi:type="indicator:IndicatorType">
+            <indicator:Title>Protocol - SMTP </indicator:Title>
+	       <indicator:Type xsi:type="stixVocabs:IndicatorTypeVocab-1.0"> </indicator:Type>
+         </stix:Indicator>
+	  //************************************************************************************************************/
+        <stix:Indicator id="apt:indicator-Protocol-ICMP" xsi:type="indicator:IndicatorType">
+            <indicator:Title>Protocol - ICMP </indicator:Title>
+	       <indicator:Type xsi:type="stixVocabs:IndicatorTypeVocab-1.0"> </indicator:Type>
+         </stix:Indicator>
+	  //************************************************************************************************************/
+        <stix:Indicator id="apt:indicator-Protocol-HTTP" xsi:type="indicator:IndicatorType">
+            <indicator:Title>Protocol - HTTP  </indicator:Title>
+	       <indicator:Type xsi:type="stixVocabs:IndicatorTypeVocab-1.0"> </indicator:Type>
+        </stix:Indicator>
+
+	  //************************************************************************************************************/
+        <stix:Indicator id="apt:indicator-Protocol-TCP" xsi:type="indicator:IndicatorType">
+            <indicator:Title>Protocol - TCP  </indicator:Title>
+	       <indicator:Type xsi:type="stixVocabs:IndicatorTypeVocab-1.0"> </indicator:Type>
+        </stix:Indicator>
+	  //************************************************************************************************************/
+        <stix:Indicator id="apt:indicator-Protocol-UDP" xsi:type="indicator:IndicatorType">
+            <indicator:Title>Protocol - UDP </indicator:Title>
+	       <indicator:Type xsi:type="stixVocabs:IndicatorTypeVocab-1.0"> </indicator:Type>
+        </stix:Indicator>
+
+
+	   //************************************************************************************************************/
+        <stix:Indicator id="apt:indicator-CnC-CommandAndControl" xsi:type="indicator:IndicatorType">
+            <indicator:Title>Command and Control</indicator:Title>
+	       <indicator:Type xsi:type="stixVocabs:IndicatorTypeVocab-1.0"> </indicator:Type>
+        </stix:Indicator>
+	   //************************************************************************************************************/
+        <stix:Indicator id="apt:indicator-API-CopyFileAAPI" xsi:type="indicator:IndicatorType">
+            <indicator:Title>API -  CopyFileA API</indicator:Title>
+	       <indicator:Type xsi:type="stixVocabs:IndicatorTypeVocab-1.0"> </indicator:Type>
+        </stix:Indicator>
+	   //************************************************************************************************************/
+        <stix:Indicator id="apt:indicator-DomainName-smtp.gmail.com" xsi:type="indicator:IndicatorType">
+            <indicator:Title>Domain Name - smtp.gmail.com</indicator:Title>
+	       <indicator:Type xsi:type="stixVocabs:IndicatorTypeVocab-1.0"> </indicator:Type>
+        </stix:Indicator>
+	   //************************************************************************************************************/
+        <stix:Indicator id="apt:indicator-File-winxml.dll" xsi:type="indicator:IndicatorType">
+            <indicator:Title>File - winxml.dll </indicator:Title>
+	       <indicator:Type xsi:type="stixVocabs:IndicatorTypeVocab-1.0"> </indicator:Type>
+        </stix:Indicator>
+	   //************************************************************************************************************/
+        <stix:Indicator id="apt:indicator-Mutex-uhytntr56uisGGst" xsi:type="indicator:IndicatorType">
+            <indicator:Title>Mutex - uhYtntr56uisGst</indicator:Title>
+	       <indicator:Type xsi:type="stixVocabs:IndicatorTypeVocab-1.0"> </indicator:Type>
+        </stix:Indicator>
+	  //************************************************************************************************************/
+        <stix:Indicator id="apt:indicator-DSD-DisableSecDevices" xsi:type="indicator:IndicatorType">
+            <indicator:Title>Disable Sec Devices</indicator:Title>
+	       <indicator:Type xsi:type="stixVocabs:IndicatorTypeVocab-1.0"> </indicator:Type>
+        </stix:Indicator>
+	   //************************************************************************************************************/
+        <stix:Indicator id="apt:indicator-DDoS-DDoS" xsi:type="indicator:IndicatorType">
+            <indicator:Title>DDoS</indicator:Title>
+	       <indicator:Type xsi:type="stixVocabs:IndicatorTypeVocab-1.0"> </indicator:Type>
+        </stix:Indicator>
+	   //************************************************************************************************************/
+        <stix:Indicator id="apt:indicator-Worm-Worm" xsi:type="indicator:IndicatorType">
+            <indicator:Title>Worm</indicator:Title>
+	       <indicator:Type xsi:type="stixVocabs:IndicatorTypeVocab-1.0"> </indicator:Type>
+        </stix:Indicator>
+ </stix:Indicators>
+
+// ******************************************************************************************************//
+// Threat Actors ///////////////////////////////////////////////////////////////////////////////////////////
+// *******************************************************************************************************//
+	
+<stix:Threat_Actors>
+//^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+//Threat Actor - Fighter POS ////////////////////////////////////////////////////////////////////////////////
+    <stix:Threat_Actor id="apt:threatactor-TA-AleJandro" xsi:type="ta:ThreatActorType">
+      <ta:Title>AleJandro</ta:Title>
+         <ta:Observed_TTPs>
+            <ta:Observed_TTP>
+               <stixCommon:Relationship>Uses Malware</stixCommon:Relationship>
+               //<stixCommon:TTP idref="apt:ttp-20101cb3-e9fa-46f9-8ec5-ffc9cb0b59f1"/>
+            </ta:Observed_TTP>
+          </ta:Observed_TTPs>
+      </stix:Threat_Actor>
+ //^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+//Threat Actor - Black POS ////////////////////////////////////////////////////////////////////////////////
+   <stix:Threat_Actor id="apt:threatactor-TA-ree4" xsi:type="ta:ThreatActorType">
+      <ta:Title>ree4</ta:Title>
+         <ta:Observed_TTPs>
+            <ta:Observed_TTP>
+               <stixCommon:Relationship>Uses Malware</stixCommon:Relationship>
+               //<stixCommon:TTP idref="apt:ttp-20101cb3-e9fa-46f9-8ec5-ffc9cb0b59f1"/>
+            </ta:Observed_TTP>
+          </ta:Observed_TTPs>
+      </stix:Threat_Actor>
+ //^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+//Threat Actor - Russia ////////////////////////////////////////////////////////////////////////////////
+   <stix:Threat_Actor id="apt:threatactor-TA-Russia" xsi:type="ta:ThreatActorType">
+      <ta:Title>Russia</ta:Title>
+         <ta:Observed_TTPs>
+            <ta:Observed_TTP>
+               <stixCommon:Relationship>Uses Malware</stixCommon:Relationship>
+            </ta:Observed_TTP>
+          </ta:Observed_TTPs>
+      </stix:Threat_Actor>
+ //^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+//Threat Actor - Strider and Flammer Groups ////////////////////////////////////////////////////////////////////////////////
+   <stix:Threat_Actor id="apt:threatactor-TA-StriderandFlammerGroups" xsi:type="ta:ThreatActorType">
+      <ta:Title>Strider and Flammer Groups</ta:Title>
+         <ta:Observed_TTPs>
+            <ta:Observed_TTP>
+               <stixCommon:Relationship>Uses Malware</stixCommon:Relationship>
+            </ta:Observed_TTP>
+          </ta:Observed_TTPs>
+      </stix:Threat_Actor>
+ //^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+//Threat Actor - USA and British Intellignes Agencies ////////////////////////////////////////////////////////////////////////////////
+   <stix:Threat_Actor id="apt:threatactor-TA-USAandBritishIA" xsi:type="ta:ThreatActorType">
+      <ta:Title>USA and British IA</ta:Title>
+         <ta:Observed_TTPs>
+            <ta:Observed_TTP>
+               <stixCommon:Relationship>Uses Malware</stixCommon:Relationship>
+            </ta:Observed_TTP>
+          </ta:Observed_TTPs>
+      </stix:Threat_Actor>
+
+
+</stix:Threat_Actors>
+
+//***********************************************************************************************************//
+// Observable//////////////////////////////////////////////////////////////////////////////////////////////////
+//***********************************************************************************************************//
+<stix:Observables cybox_major_version="2" cybox_minor_version="0" cybox_update_version="1">
+
+	//*** Hash *************************************************************************************//
+      <cybox:Observable id="apt:observable-Hash-927AE15DBF549BD60EDCDEAFB49B829E">
+            <cybox:Title>MD5 Hash: 927AE15DBF549BD60EDCDEAFB49B829E </cybox:Title>
+	           <cybox:Object id="apt:object-2049611d-757c-4d46-830a-bf5becd26f39">
+	                <cybox:Properties xsi:type="FileObj:FileObjectType">
+	                    <FileObj:Hashes>
+     		                   <cyboxCommon:Hash>
+           	                 <cyboxCommon:Type>MD5</cyboxCommon:Type>
+                	            <cyboxCommon:Simple_Hash_Value condition="Equals">927AE15DBF549BD60EDCDEAFB49B829E </cyboxCommon:Simple_Hash_Value>
+                     		   </cyboxCommon:Hash>
+		               </FileObj:Hashes>
+		           </cybox:Properties>
+
+           		<cybox:Related_Objects>
+	                    <cybox:Related_Object idref="apt:object-07e2d2f3-092d-436d-bbd6-60d2bdc36d43">
+     			         <cybox:Relationship xsi:type="cyboxVocabs:ObjectRelationshipVocab-1.0">Connected_To</cybox:Relationship>
+                	</cybox:Related_Object>
+	            </cybox:Related_Objects>
+            </cybox:Object>
+        </cybox:Observable>
+	//***Mutex *************************************************************************************//
+        <cybox:Observable id="apt:observable-6b9697fa-38a2-4ba7-adda-a6eb268099fa">
+            <cybox:Title>Mutex: Undsa8301nskal</cybox:Title>
+            <cybox:Object id="apt:object-363367bd-7460-49bd-9163-55378a0fa666">
+                <cybox:Properties xsi:type="MutexObj:MutexObjectType">
+                    <MutexObj:Name condition="Equals">Undsa8301nskal</MutexObj:Name>
+                </cybox:Properties>
+            </cybox:Object>
+        </cybox:Observable>
+
+	//*** File Obj *********************************************************************************//
+	   <cybox:Observable id="apt:observable-6c9697fa-38a2-4ba7-adda-a6eb268099fa">
+            <cybox:Title>File : %APPDATA%\mskrnl</cybox:Title>
+            <cybox:Object id="apt:object-f00572b1-7aea-4e32-ae05-1fe8fc194c23">
+                <cybox:Properties xsi:type="FileObj:FileObjectType">
+                    <cyboxCommon:Custom_Properties>
+                        <cyboxCommon:Property condition="Equals" name="ID">%APPDATA%\mskrnl</cyboxCommon:Property>
+                    </cyboxCommon:Custom_Properties>
+                </cybox:Properties>
+            </cybox:Object>
+        </cybox:Observable>
+	//*** Observe Outgoing Traffic *****************************************************************************//
+	   <cybox:Observable id="apt:observable-6d9697fa-38a2-4ba7-adda-a6eb268099fa">
+            <cybox:Title> Observe Outgoing Traffic </cybox:Title>
+            <cybox:Object id="apt:object-f00572b1-7aea-4e32-ae05-1fe8fc194c93">
+                <cybox:Properties xsi:type="FileObj:FileObjectType">
+                    <cyboxCommon:Custom_Properties>
+                        <cyboxCommon:Property condition="Equals" name="ID">%APPDATA%\mskrnl</cyboxCommon:Property>
+                    </cyboxCommon:Custom_Properties>
+                </cybox:Properties>
+            </cybox:Object>
+        </cybox:Observable>
+	//*** Mutex *****************************************************************************//
+	   <cybox:Observable id="apt:observable-Mutex-m_number3">
+            <cybox:Title> Mutex - m_number3 </cybox:Title>
+            <cybox:Object id="apt:object-f00572b1-7aea-4e32-ae05-1fe8fc194c24">
+                <cybox:Properties xsi:type="MutexObj:MutexObjectType">
+                    <MutexObj:Name condition="Equals">Mutex-m_number3</MutexObj:Name>
+                </cybox:Properties>
+            </cybox:Object>
+        </cybox:Observable>
+	//*** Mutex Mutex-Check *****************************************************************************//
+	   <cybox:Observable id="apt:observable-Mutex-MuTex-Check">
+            <cybox:Title> Mutex - MuTex-Check </cybox:Title>
+            <cybox:Object id="apt:object-f00572b1-7aea-4e32-ae05-1fe8fc194c25">
+                <cybox:Properties xsi:type="MutexObj:MutexObjectType">
+                    <MutexObj:Name condition="Equals">Mutex-MuTex-Check</MutexObj:Name>
+                </cybox:Properties>
+            </cybox:Object>
+        </cybox:Observable>
+	//*** dllorchmextensions"> *****************************************************************************//
+	   <cybox:Observable id="apt:observable-Files-dllorchmextensions">
+            <cybox:Title> Files -  .dll or .chm ext </cybox:Title>
+            <cybox:Object id="apt:object-f00572b1-7aea-4e32-ae05-1fe8fc194c26">
+                <cybox:Properties xsi:type="FileObj:FileObjectType">
+                    <cyboxCommon:Custom_Properties>
+                        <cyboxCommon:Property condition="Equals" name="ID">dllorchmextensions</cyboxCommon:Property>
+                    </cyboxCommon:Custom_Properties>
+                </cybox:Properties>
+            </cybox:Object>
+        </cybox:Observable>
+
+
+	//*** ZxWinDeffContex *****************************************************************************//
+	   <cybox:Observable id="apt:observable-Mutex-ZxWinDeffContex">
+            <cybox:Title> Mutex - ZxWinDeffContex </cybox:Title>
+            <cybox:Object id="apt:object-f00572b1-7aea-4e32-ae05-1fe8fc194c27">
+                  <cybox:Properties xsi:type="MutexObj:MutexObjectType">
+                    <MutexObj:Name condition="Equals">ZxWinDeffContex</MutexObj:Name>
+                </cybox:Properties>
+            </cybox:Object>
+        </cybox:Observable>
+	//*** Paramore756Contex43 *****************************************************************************//
+	   <cybox:Observable id="apt:observable-Mutex-Paramore756Contex43">
+            <cybox:Title> Mutex-Paramore756Contex43 </cybox:Title>
+            <cybox:Object id="apt:object-f00572b1-7aea-4e32-ae05-1fe8fc194c28">
+                <cybox:Properties xsi:type="MutexObj:MutexObjectType">
+                    <MutexObj:Name condition="Equals">Paramore756Contex43</MutexObj:Name>
+                </cybox:Properties>
+          </cybox:Object>
+        </cybox:Observable>
+	//*** Files - hlpuctf.dll *****************************************************************************//
+	   <cybox:Observable id="apt:observable-Files-hlpuctf.dll">
+            <cybox:Title> Files - hlpuctf.dll </cybox:Title>
+            <cybox:Object id="apt:object-f00572b1-7aea-4e32-ae05-1fe8fc194c29">
+                <cybox:Properties xsi:type="FileObj:FileObjectType">
+                    <cyboxCommon:Custom_Properties>
+                        <cyboxCommon:Property condition="Equals" name="ID">hlpuctf.dll</cyboxCommon:Property>
+                    </cyboxCommon:Custom_Properties>
+                </cybox:Properties>
+            </cybox:Object>
+        </cybox:Observable>
+	//*** Files -  swma.dll *****************************************************************************//
+	   <cybox:Observable id="apt:observable-Files-swma.dll">
+            <cybox:Title> Files - swma.dll </cybox:Title>
+            <cybox:Object id="apt:object-f00572b1-7aea-4e32-ae05-1fe8fc194c30">
+                <cybox:Properties xsi:type="FileObj:FileObjectType">
+                    <cyboxCommon:Custom_Properties>
+                        <cyboxCommon:Property condition="Equals" name="ID">swma.dll</cyboxCommon:Property>
+                    </cyboxCommon:Custom_Properties>
+                </cybox:Properties>
+            </cybox:Object>
+        </cybox:Observable>
+
+	//*** Files -  bka*.dat *****************************************************************************//
+	   <cybox:Observable id="apt:observable-Files-bka*.dat">
+            <cybox:Title> Files - bka*.dat </cybox:Title>
+            <cybox:Object id="apt:object-f00572b1-7aea-4e32-ae05-1fe8fc194c31">
+                <cybox:Properties xsi:type="FileObj:FileObjectType">
+                    <cyboxCommon:Custom_Properties>
+                        <cyboxCommon:Property condition="Equals" name="ID">bka*.dat</cyboxCommon:Property>
+                    </cyboxCommon:Custom_Properties>
+                </cybox:Properties>
+            </cybox:Object>
+        </cybox:Observable>
+	//*** Files -  change.log *****************************************************************************//
+	   <cybox:Observable id="apt:observable-Files-change.log">
+            <cybox:Title> Files - change.log </cybox:Title>
+            <cybox:Object id="apt:object-f00572b1-7aea-4e32-ae05-1fe8fc194c32">
+                <cybox:Properties xsi:type="FileObj:FileObjectType">
+                    <cyboxCommon:Custom_Properties>
+                        <cyboxCommon:Property condition="Equals" name="ID">change.log</cyboxCommon:Property>
+                    </cyboxCommon:Custom_Properties>
+                </cybox:Properties>
+            </cybox:Object>
+        </cybox:Observable>
+	//*** API_DLL  nseci.dll *****************************************************************************//
+	   <cybox:Observable id="apt:observable-API_DLL-nseci.dll">
+            <cybox:Title> API_DLL - nseci.dll </cybox:Title>
+            <cybox:Object id="apt:object-f00572b1-7aea-4e32-ae05-1fe8fc194c33">
+                <cybox:Properties xsi:type="FileObj:FileObjectType">
+                    <cyboxCommon:Custom_Properties>
+                        <cyboxCommon:Property condition="Equals" name="ID">nseci.dll</cyboxCommon:Property>
+                    </cyboxCommon:Custom_Properties>
+                </cybox:Properties>
+            </cybox:Object>
+        </cybox:Observable>
+	//*** Mutex -  Global *****************************************************************************//
+	   <cybox:Observable id="apt:observable-Mutex-Global">
+            <cybox:Title> Mutex - Global</cybox:Title>
+            <cybox:Object id="apt:object-f00572b1-7aea-4e32-ae05-1fe8fc194c34">
+                <cybox:Properties xsi:type="MutexObj:MutexObjectType">
+                    <MutexObj:Name condition="Equals">Global</MutexObj:Name>
+                </cybox:Properties>
+            </cybox:Object>
+        </cybox:Observable>
+	//*** Files -  msdcsvc.dat*****************************************************************************//
+	   <cybox:Observable id="apt:observable-Files-msdcsvc.dat">
+            <cybox:Title> Files - change.log </cybox:Title>
+            <cybox:Object id="apt:object-f00572b1-7aea-4e32-ae05-1fe8fc194c35">
+                <cybox:Properties xsi:type="FileObj:FileObjectType">
+                    <cyboxCommon:Custom_Properties>
+                        <cyboxCommon:Property condition="Equals" name="ID">msdcsvc.dat</cyboxCommon:Property>
+                    </cyboxCommon:Custom_Properties>
+                </cybox:Properties>
+            </cybox:Object>
+        </cybox:Observable>
+	//*** Files -  SystemLog.evt *****************************************************************************//
+	   <cybox:Observable id="apt:observable-Files-SystemLog.evt">
+            <cybox:Title> Files - SystemLog.evt </cybox:Title>
+            <cybox:Object id="apt:object-f00572b1-7aea-4e32-ae05-1fe8fc194c36">
+                <cybox:Properties xsi:type="FileObj:FileObjectType">
+                    <cyboxCommon:Custom_Properties>
+                        <cyboxCommon:Property condition="Equals" name="ID">SystemLog.evt</cyboxCommon:Property>
+                    </cyboxCommon:Custom_Properties>
+                </cybox:Properties>
+            </cybox:Object>
+        </cybox:Observable>
+	//*** Port - 13000 *****************************************************************************//
+	   <cybox:Observable id="apt:observable-Port-13000 ">
+            <cybox:Title> Port - 13000  </cybox:Title>
+            <cybox:Object id="apt:object-f00572b1-7aea-4e32-ae05-1fe8fc194c37">
+                <cybox:Properties xsi:type="FileObj:FileObjectType">
+                    <cyboxCommon:Custom_Properties>
+                        <cyboxCommon:Property condition="Equals" name="ID">13000</cyboxCommon:Property>
+                    </cyboxCommon:Custom_Properties>
+                </cybox:Properties>
+            </cybox:Object>
+        </cybox:Observable>
+
+
+
+
+
+    </stix:Observables>
+
+//vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv//
+
+//***********************************************************************************************************************//
+//***   Course of Action ************************************************************************************************//
+//***********************************************************************************************************************//
+
+<stix:Courses_Of_Action>
+        
+	//****************************** COA - Honey Hashes ***************************************//	
+	<stix:Course_Of_Action id="apt:courseofaction-70b3d5f6-374b-4488-8688-729b6eedac5b" xsi:type="coa:CourseOfActionType">
+           <coa:Title>Honey Hashes</coa:Title>
+		<coa:Description> "" </coa:Description>
+     	</stix:Course_Of_Action>
+	//****************************** COA - Data Encoding***************************************//	
+     <stix:Course_Of_Action id="apt:courseofaction-71b3d5f6-374b-4488-8688-729b6eedac5b" xsi:type="coa:CourseOfActionType">
+           <coa:Title>Data Encoding</coa:Title>
+           <coa:Description> "" </coa:Description>
+     </stix:Course_Of_Action>
+	//****************************** COA - Blocking C2 Comm ***************************************//	
+     <stix:Course_Of_Action id="apt:courseofaction-72b3d5f6-374b-4488-8688-729b6eedac5b" xsi:type="coa:CourseOfActionType">
+           <coa:Title>Blocking C2 Comm</coa:Title>
+           <coa:Description> "" </coa:Description>
+     </stix:Course_Of_Action>
+	//****************************** COA - Install Patch***************************************//	
+     <stix:Course_Of_Action id="apt:courseofaction-73b3d5f6-374b-4488-8688-729b6eedac5b" xsi:type="coa:CourseOfActionType">
+           <coa:Title>Install Patch</coa:Title>
+           <coa:Description> "" </coa:Description>
+     </stix:Course_Of_Action>
+
+</stix:Courses_Of_Action>
+
+

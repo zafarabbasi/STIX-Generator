@@ -1,0 +1,867 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+	APT1: Exposing One of China's Cyber Espionage Units (the "APT1 Report")
+-->
+
+<stix:STIX_Package
+	id="mandiant:package-e33ffe07-2f4c-48d8-b0af-ee2619d765cf"
+	version="1.2"
+
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:marking="http://data-marking.mitre.org/Marking-1"
+	xmlns:terms="http://data-marking.mitre.org/extensions/MarkingStructure#Terms_Of_Use-1"
+	xmlns:cybox="http://cybox.mitre.org/cybox-2" 
+	xmlns:cyboxCommon="http://cybox.mitre.org/common-2"
+	xmlns:cyboxVocabs="http://cybox.mitre.org/default_vocabularies-2"
+	xmlns:AddressObject="http://cybox.mitre.org/objects#AddressObject-2"
+	xmlns:URIObject="http://cybox.mitre.org/objects#URIObject-2"
+	xmlns:LinkObject="http://cybox.mitre.org/objects#LinkObject-1"
+	xmlns:stix="http://stix.mitre.org/stix-1"
+	xmlns:report="http://stix.mitre.org/Report-1"
+	xmlns:stixCommon="http://stix.mitre.org/common-1"
+	xmlns:stixVocabs="http://stix.mitre.org/default_vocabularies-1"
+	xmlns:indicator="http://stix.mitre.org/Indicator-2" 
+     xmlns:incident="http://stix.mitre.org/Incident-1"
+	xmlns:et="http://stix.mitre.org/ExploitTarget-1"
+
+
+	xmlns:ttp="http://stix.mitre.org/TTP-1"
+	xmlns:campaign="http://stix.mitre.org/Campaign-1"
+	xmlns:threat-actor="http://stix.mitre.org/ThreatActor-1"
+	xmlns:stix-ciq="http://stix.mitre.org/extensions/Identity#CIQIdentity3.0-1"
+	xmlns:xnl="urn:oasis:names:tc:ciq:xnl:3"
+	xmlns:xal="urn:oasis:names:tc:ciq:xal:3" 
+	xmlns:xpil="urn:oasis:names:tc:ciq:xpil:3"
+	xmlns:lmco="lockheedmartin.com" 
+	xmlns:mandiant="http://www.mandiant.com"
+	xmlns:mitre="http://www.mitre.org"
+	xmlns:coa="http://stix.mitre.org/CourseOfAction-1" 	
+	xmlns:ta="http://stix.mitre.org/ThreatActor-1" 
+	xmlns:xlink="http://www.w3.org/1999/xlink"
+	xmlns:attack_pattern = "http://stix.mitre.org/extensions/AP#CAPEC2.7-1"
+
+	xsi:schemaLocation="
+		http://stix.mitre.org/XMLSchema/extensions/identity/ciq_identity/1.1/ciq_identity.xsd
+		http://cybox.mitre.org/objects#AddressObject-2 
+		http://cybox.mitre.org/XMLSchema/objects/Address/2.1/Address_Object.xsd
+		http://cybox.mitre.org/objects#URIObject-2 
+		http://cybox.mitre.org/XMLSchema/objects/URI/2.1/URI_Object.xsd		
+		http://cybox.mitre.org/objects#LinkObject-1 
+		http://cybox.mitre.org/XMLSchema/objects/Link/1.1/Link_Object.xsd
+		http://stix.mitre.org/Indicator-2 
+		http://stix.mitre.org/XMLSchema/indicator/2.2/indicator.xsd
+		http://stix.mitre.org/Campaign-1 
+		http://stix.mitre.org/XMLSchema/campaign/1.2/campaign.xsd
+		http://stix.mitre.org/ThreatActor-1 
+		http://stix.mitre.org/XMLSchema/threat_actor/1.2/threat_actor.xsd
+		http://stix.mitre.org/TTP-1 
+		http://stix.mitre.org/XMLSchema/ttp/1.2/ttp.xsd
+		http://stix.mitre.org/default_vocabularies-1 
+		http://stix.mitre.org/XMLSchema/default_vocabularies/1.2.0/stix_default_vocabularies.xsd
+		http://cybox.mitre.org/default_vocabularies-2 
+		http://cybox.mitre.org/XMLSchema/default_vocabularies/2.1/cybox_default_vocabularies.xsd
+		http://stix.mitre.org/extensions/Identity#CIQIdentity3.0-1 
+		http://stix.mitre.org/XMLSchema/extensions/identity/ciq_3.0/1.2/ciq_3.0_identity.xsd
+		http://stix.mitre.org/stix-1 http://stix.mitre.org/XMLSchema/core/1.2/stix_core.xsd
+		http://stix.mitre.org/Report-1 http://stix.mitre.org/XMLSchema/report/1.0/report.xsd
+		http://stix.mitre.org/Incident-1 
+	    	http://stix.mitre.org/XMLSchema/common/1.2/stix_common.xsd
+
+		http://data-marking.mitre.org/extensions/MarkingStructure#Terms_Of_Use-1 						
+		http://stix.mitre.org/XMLSchema/extensions/marking/terms_of_use/1.1/terms_of_use_marking.xsd
+		http://stix.mitre.org/XMLSchema/extensions/attack_pattern/capec_2.7/1.0.1/capec_2.7_attack_pattern.xsd">
+
+	<stix:STIX_Header>
+
+		<stix:Handling>
+			<marking:Marking>
+				<marking:Controlled_Structure>//node() | //@*</marking:Controlled_Structure>
+				<!-- Apply following marking to entire document -->
+				<marking:Marking_Structure xsi:type="terms:TermsOfUseMarkingStructureType">
+					<terms:Terms_Of_Use>APT1: Exposing One of China's Cyber Espionage Units (the "APT1 Report") is copyright 2013 by Mandiant Corporation and can be downloaded at intelreport.mandiant.com.  This XML file using the STIX standard was created by The MITRE Corporation using the content of the APT1 Report with Mandiant's permission.  Mandiant is not responsible for the content of this file.</terms:Terms_Of_Use>
+				</marking:Marking_Structure>
+			</marking:Marking>
+		</stix:Handling>
+
+		<stix:Information_Source>
+
+			<stixCommon:Identity>
+				<stixCommon:Name>MITRE</stixCommon:Name>
+			</stixCommon:Identity>
+
+			<stixCommon:Role xsi:type="stixVocabs:InformationSourceRoleVocab-1.0">Transformer/Translator</stixCommon:Role>
+			
+			<stixCommon:Contributing_Sources>
+				<stixCommon:Source>
+					<stixCommon:Identity>
+						<stixCommon:Name>Mandiant</stixCommon:Name>
+					</stixCommon:Identity>
+					<stixCommon:Role xsi:type="stixVocabs:InformationSourceRoleVocab-1.0">Initial Author</stixCommon:Role>
+					<stixCommon:Time>
+						<cyboxCommon:Produced_Time precision="day">2013-02-19T00:00:00Z</cyboxCommon:Produced_Time>
+					</stixCommon:Time>
+				</stixCommon:Source>
+			</stixCommon:Contributing_Sources>
+			
+			<stixCommon:Time>
+				<cyboxCommon:Produced_Time precision="day">2014-01-16T00:00:00Z</cyboxCommon:Produced_Time>
+			</stixCommon:Time>
+			
+			<stixCommon:References>
+				<stixCommon:Reference>http://intelreport.mandiant.com/Mandiant_APT1_Report.pdf</stixCommon:Reference>
+			</stixCommon:References>
+
+		</stix:Information_Source>
+
+	</stix:STIX_Header>
+
+
+//^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ //
+// Black POS ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv//
+ <stix:Campaigns>
+        <stix:Campaign id="mandiant:campaign-700c8b90-fd16-40e9-8b80-00b0c8bc84ee" xsi:type="campaign:CampaignType">
+            <campaign:Title>Black POS (2013 Q2) </campaign:Title>
+            <campaign:Related_TTPs>
+                <campaign:Related_TTP>
+                    <stixCommon:Relationship>Uses Malware</stixCommon:Relationship>
+                    <stixCommon:TTP idref="mandiant:ttp-0f01c5a3-f516-4450-9381-4dd9f2279411"/>
+                </campaign:Related_TTP>
+                <campaign:Related_TTP>
+                    <stixCommon:Relationship>Uses Malware</stixCommon:Relationship>
+                    <stixCommon:TTP idref="mandiant:ttp-36159b98-3264-4e10-a968-d67975b6272f"/>
+                </campaign:Related_TTP>
+            </campaign:Related_TTPs>
+            <campaign:Related_Incidents>
+                    <stixCommon:Relationship>Uses Malware</stixCommon:Relationship>
+	               <campaign:Related_Incident><stixCommon:Incident idref="mandiant:incident-84d86106-d801-489b-87b6-d56bac58e6c1"/>						    </campaign:Related_Incident>
+
+                    <stixCommon:Relationship>Uses Malware</stixCommon:Relationship>
+			    <campaign:Related_Incident><stixCommon:Incident idref="mandiant:incident-85d86106-d801-489b-87b6-d56bac58e6c1"/>			    		         </campaign:Related_Incident>
+            </campaign:Related_Incidents>
+
+            <campaign:Related_Indicators>
+                    <stixCommon:Relationship>Uses Malware</stixCommon:Relationship>
+	                	<campaign:Related_Indicator><stixCommon:Indicator idref="mandient:indicator-4172b570-476e-4e3b-9dd9-f36ebd0a6295"/>				    </campaign:Related_Indicator>
+                    <stixCommon:Relationship>Uses Malware</stixCommon:Relationship>
+	                	<campaign:Related_Indicator><stixCommon:Indicator idref="mandient:indicator-4272b570-476e-4e3b-9dd9-f36ebd0a6295"/>				    </campaign:Related_Indicator>
+                    <stixCommon:Relationship>Uses Malware</stixCommon:Relationship>
+	                	<campaign:Related_Indicator><stixCommon:Indicator idref="mandient:indicator-4372b570-476e-4e3b-9dd9-f36ebd0a6295"/>				    </campaign:Related_Indicator>
+            </campaign:Related_Indicators>
+
+
+	   <campaign:Attribution>
+                <campaign:Attributed_Threat_Actor>
+                    <stixCommon:Threat_Actor idref="mandiant:threatactor-10b54231-a99d-431e-9587-34b4cb447e98"/>
+                </campaign:Attributed_Threat_Actor>
+            </campaign:Attribution>
+        </stix:Campaign>
+//^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ //
+// Backoff POS ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv//
+ <stix:Campaigns>
+        <stix:Campaign id="mandiant:campaign-701c8b90-fd16-40e9-8b80-00b0c8bc84ee" xsi:type="campaign:CampaignType">
+            <campaign:Title>Backoff POS (2014 Q3) </campaign:Title>
+            <campaign:Related_TTPs>
+	           <campaign:Related_TTP>
+                    <stixCommon:Relationship>Uses Malware</stixCommon:Relationship>
+			    <stixCommon:TTP idref="mandiant:ttp-0f01c5a3-f516-4450-9381-4dd9f2279411"/>
+     		     </campaign:Related_TTP>
+                <campaign:Related_TTP>
+                    <stixCommon:Relationship>Uses Malware</stixCommon:Relationship>
+                    <stixCommon:TTP idref="mandiant:ttp-33159b98-3264-4e10-a968-d67975b6272f"/>
+                </campaign:Related_TTP>
+            </campaign:Related_TTPs>
+            <campaign:Related_Incidents>
+                    <stixCommon:Relationship>Uses Malware</stixCommon:Relationship>
+	                	<campaign:Related_Incident><stixCommon:Incident idref="mandiant:incident-86d86106-d801-489b-87b6-d56bac58e6c1"/>				    </campaign:Related_Incident>
+                    <stixCommon:Relationship>Uses Malware</stixCommon:Relationship>
+	                	<campaign:Related_Incident><stixCommon:Incident idref="mandiant:incident-87d86106-d801-489b-87b6-d56bac58e6c1"/>				    </campaign:Related_Incident>
+            </campaign:Related_Incidents>
+            <campaign:Related_Indicators>
+                    <stixCommon:Relationship>Uses Malware</stixCommon:Relationship>
+	                	<campaign:Related_Indicator><stixCommon:Indicator idref="mandient:indicator-5172b570-476e-4e3b-9dd9-f36ebd0a6295"/>				    </campaign:Related_Indicator>
+                    <stixCommon:Relationship>Uses Malware</stixCommon:Relationship>
+	                	<campaign:Related_Indicator><stixCommon:Indicator idref="mandient:indicator-5272b570-476e-4e3b-9dd9-f36ebd0a6295"/>				    </campaign:Related_Indicator>
+                    <stixCommon:Relationship>Uses Malware</stixCommon:Relationship>
+	                	<campaign:Related_Indicator><stixCommon:Indicator idref="mandient:indicator-5372b570-476e-4e3b-9dd9-f36ebd0a6295"/>				    </campaign:Related_Indicator>
+                    <stixCommon:Relationship>Uses Malware</stixCommon:Relationship>
+	                	<campaign:Related_Indicator><stixCommon:Indicator idref="mandient:indicator-5472b570-476e-4e3b-9dd9-f36ebd0a6295"/>				    </campaign:Related_Indicator>
+            </campaign:Related_Indicators>
+      
+      <campaign:Attribution>
+                <campaign:Attributed_Threat_Actor>
+                    <stixCommon:Threat_Actor idref="mandiant:threatactor-11b54231-a99d-431e-9587-34b4cb447e98"/>
+                </campaign:Attributed_Threat_Actor>
+            </campaign:Attribution>
+        </stix:Campaign>
+//^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ //
+// Malum POS ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv//
+ <stix:Campaigns>
+        <stix:Campaign id="mandiant:campaign-702c8b90-fd16-40e9-8b80-00b0c8bc84ee" xsi:type="campaign:CampaignType">
+            <campaign:Title>Malum POS (2015 Q2) </campaign:Title>
+            <campaign:Related_TTPs>
+	           <campaign:Related_TTP>
+                    <stixCommon:Relationship>Uses Malware</stixCommon:Relationship>
+			    <stixCommon:TTP idref="mandiant:ttp-0f01c5a3-f516-4450-9381-4dd9f2279411"/>
+     		     </campaign:Related_TTP>
+                <campaign:Related_TTP>
+                    <stixCommon:Relationship>Uses Malware</stixCommon:Relationship>
+                    <stixCommon:TTP idref="mandiant:ttp-36159b98-3264-4e10-a968-d67975b6272f"/>
+                </campaign:Related_TTP>
+                <campaign:Related_TTP>
+                    <stixCommon:Relationship>Uses Malware</stixCommon:Relationship>
+                    <stixCommon:TTP idref="mandiant:ttp-38159b98-3264-4e10-a968-d67975b6272f"/>
+                </campaign:Related_TTP>
+            </campaign:Related_TTPs>
+            <campaign:Related_Incidents>
+                    <stixCommon:Relationship>Uses Malware</stixCommon:Relationship>
+	                	<campaign:Related_Incident><stixCommon:Incident idref="mandiant:incident-88d86106-d801-489b-87b6-d56bac58e6c1"/>				    </campaign:Related_Incident>
+                    <stixCommon:Relationship>Uses Malware</stixCommon:Relationship>
+	                	<campaign:Related_Incident><stixCommon:Incident idref="mandiant:incident-89d86106-d801-489b-87b6-d56bac58e6c1"/>				    </campaign:Related_Incident>
+            </campaign:Related_Incidents>
+            <campaign:Attribution>
+                <campaign:Attributed_Threat_Actor>
+                    <stixCommon:Threat_Actor idref="mandiant:threatactor-12b54231-a99d-431e-9587-34b4cb447e98"/>
+                </campaign:Attributed_Threat_Actor>
+            </campaign:Attribution>
+        </stix:Campaign>
+//^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ //
+// Punkey POS ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv//
+ <stix:Campaigns>
+        <stix:Campaign id="mandiant:campaign-703c8b90-fd16-40e9-8b80-00b0c8bc84ee" xsi:type="campaign:CampaignType">
+            <campaign:Title>Punkey POS (2015 Q2) </campaign:Title>
+            <campaign:Related_TTPs>
+	           <campaign:Related_TTP>
+                    <stixCommon:Relationship>Uses Malware</stixCommon:Relationship>
+			    <stixCommon:TTP idref="mandiant:ttp-0f01c5a3-f516-4450-9381-4dd9f2279411"/>
+     		     </campaign:Related_TTP>
+                <campaign:Related_TTP>
+                    <stixCommon:Relationship>Uses Malware</stixCommon:Relationship>
+                    <stixCommon:TTP idref="mandiant:ttp-33159b98-3264-4e10-a968-d67975b6272f"/>
+                </campaign:Related_TTP>
+            </campaign:Related_TTPs>
+            <campaign:Related_Incidents>
+                    <stixCommon:Relationship>Uses Malware</stixCommon:Relationship>
+	                	<campaign:Related_Incident><stixCommon:Incident idref="mandiant:incident-90d86106-d801-489b-87b6-d56bac58e6c1"/>				    </campaign:Related_Incident>
+            </campaign:Related_Incidents>
+            <campaign:Related_Indicators>
+                    <stixCommon:Relationship>Uses Malware</stixCommon:Relationship>
+	                	<campaign:Related_Indicator><stixCommon:Indicator idref="mandient:indicator-6172b570-476e-4e3b-9dd9-f36ebd0a6295"/>				    </campaign:Related_Indicator>
+            </campaign:Related_Indicators>
+
+            <campaign:Attribution>
+                <campaign:Attributed_Threat_Actor>
+                    <stixCommon:Threat_Actor idref="mandiant:threatactor-13b54231-a99d-431e-9587-34b4cb447e98"/>
+                </campaign:Attributed_Threat_Actor>
+            </campaign:Attribution>
+        </stix:Campaign>
+//^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ //
+// Fighter POS ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv//
+ <stix:Campaigns>
+        <stix:Campaign id="mandiant:campaign-704c8b90-fd16-40e9-8b80-00b0c8bc84ee" xsi:type="campaign:CampaignType">
+            <campaign:Title>Fighter POS (2015 Q2) </campaign:Title>
+            <campaign:Related_TTPs>
+	           <campaign:Related_TTP>
+                    <stixCommon:Relationship>Uses Malware</stixCommon:Relationship>
+			    <stixCommon:TTP idref="mandiant:ttp-0f01c5a3-f516-4450-9381-4dd9f2279411"/>
+     		     </campaign:Related_TTP>
+                <campaign:Related_TTP>
+                    <stixCommon:Relationship>Uses Malware</stixCommon:Relationship>
+                    <stixCommon:TTP idref="mandiant:ttp-38159b98-3264-4e10-a968-d67975b6272f"/>
+                </campaign:Related_TTP>
+
+                <campaign:Related_TTP>
+                    <stixCommon:Relationship>Exploits</stixCommon:Relationship>
+                    <stixCommon:TTP idref="ttp_Exploit_1"/>
+                </campaign:Related_TTP>
+
+
+            </campaign:Related_TTPs>
+            <campaign:Related_Incidents>
+                    <stixCommon:Relationship>Uses Malware</stixCommon:Relationship>
+	                	<campaign:Related_Incident><stixCommon:Incident idref="mandiant:incident-91d86106-d801-489b-87b6-d56bac58e6c1"/>				    </campaign:Related_Incident>
+                    <stixCommon:Relationship>Uses Malware</stixCommon:Relationship>
+	                	<campaign:Related_Incident><stixCommon:Incident idref="mandiant:incident-92d86106-d801-489b-87b6-d56bac58e6c1"/>				    </campaign:Related_Incident>
+            </campaign:Related_Incidents>
+            <campaign:Related_Indicators>
+                    <stixCommon:Relationship>Uses Malware</stixCommon:Relationship>
+	                	<campaign:Related_Indicator><stixCommon:Indicator idref="mandient:indicator-7172b570-476e-4e3b-9dd9-f36ebd0a6295"/>				    </campaign:Related_Indicator>
+                    <stixCommon:Relationship>Uses Malware</stixCommon:Relationship>
+	                	<campaign:Related_Indicator><stixCommon:Indicator idref="mandient:indicator-7272b570-476e-4e3b-9dd9-f36ebd0a6295"/>				    </campaign:Related_Indicator>
+                    <stixCommon:Relationship>Uses Malware</stixCommon:Relationship>
+	                	<campaign:Related_Indicator><stixCommon:Indicator idref="mandient:indicator-7372b570-476e-4e3b-9dd9-f36ebd0a6295"/>				    </campaign:Related_Indicator>
+                    <stixCommon:Relationship>Uses Malware</stixCommon:Relationship>
+	                	<campaign:Related_Indicator><stixCommon:Indicator idref="mandient:indicator-7472b570-476e-4e3b-9dd9-f36ebd0a6295"/>				    </campaign:Related_Indicator>
+            </campaign:Related_Indicators>
+	
+            <campaign:Attribution>
+                <campaign:Attributed_Threat_Actor>
+                    <stixCommon:Threat_Actor idref="mandiant:threatactor-14b54231-a99d-431e-9587-34b4cb447e98"/>
+                </campaign:Attributed_Threat_Actor>
+            </campaign:Attribution>
+</stix:Campaign>
+
+	//********************************************************************************************************************//
+
+     //^^^^^^^^^^^^^^^TTP for handling threat actor ^^^^^^^^^^^^^^^//
+     <stix:TTPs>
+        <stix:TTP id="mandiant:ttp-591f0cb7-d66f-4e14-a8e6-5927b597f920" xsi:type="ttp:TTPType">
+            <ttp:Title> TTP HAndling </ttp:Title>
+	</stix:TTP>
+	//*****************************************************************//
+
+		// *******************************************************************************************************//		
+		/// Malware Family /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+		// *******************************************************************************************************//	
+
+		//%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%//
+		/// TTP declared for Using Exploit Target  and call its Course of action /////////////////////////////////////////////////////////
+		// *******************************************************************************************************//	
+		<stix:TTP xsi:type="ttp:TTPType" id="ttp_Exploit_1">
+		    <ttp:Title> Exploit Target </ttp:Title>     
+		    <ttp:Exploit_Targets>
+		        <stixCommon:Exploit_Target idref="mandient:et-8b655a6f-e70c-4e3f-b21a-f663b5732f97"/>
+		    </ttp:Exploit_Targets>
+		</stix:TTP>
+		
+
+		//%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%//
+		/// Memory Scraping Tool /////////////////////////////////////////////////////////////////////////////////////////////////////////////
+		// *******************************************************************************************************//	
+		<stix:TTP timestamp="2015-05-15T09:00:00.000000Z" id="mandiant:ttp-0f01c5a3-f516-4450-9381-4dd9f2279411" xsi:type="ttp:TTPType">
+			<ttp:Title>Memory Scraping Tool </ttp:Title>
+			<ttp:Behavior>
+
+				<ttp:Malware>
+					<ttp:Malware_Instance>
+						<ttp:Type>Backdoor</ttp:Type>
+						<ttp:Name>MemScraper</ttp:Name>
+							<ttp:Description structuring_format="HTML5"><![CDATA[<!DOCTYPE html>
+								<html><body>
+									<p>
+										 Perform Memory Scrapping.
+									</P>
+								</body></html>]]>
+							</ttp:Description>
+					</ttp:Malware_Instance>
+				</ttp:Malware>
+                <ttp:Attack_Patterns>
+                    <ttp:Attack_Pattern>
+                        <ttp:Description>Phishing</ttp:Description>
+                    </ttp:Attack_Pattern>
+                </ttp:Attack_Patterns>				
+	</ttp:Behavior>
+
+			<ttp:Resources>
+				<ttp:Tools>
+					<ttp:Tool>
+						<cyboxCommon:Name> Tool-123 </cyboxCommon:Name>
+							<cyboxCommon:Description structuring_format="HTML5"><![CDATA[<!DOCTYPE html>
+								<html><body>
+									<p>This program extracts User data from ram.</P>
+							</body></html>]]>
+						</cyboxCommon:Description>
+					</ttp:Tool>
+				</ttp:Tools>
+			</ttp:Resources>
+
+		</stix:TTP>
+	
+		//%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%//
+		/// KeyLogger /////////////////////////////////////////////////////////////////////////////////////////////////////////////
+		<stix:TTP timestamp="2015-05-15T09:00:00.000000Z" id="mandiant:ttp-33159b98-3264-4e10-a968-d67975b6272f" xsi:type="ttp:TTPType">
+			<ttp:Title>Key Logging Tool</ttp:Title>
+			<ttp:Behavior>
+				<ttp:Malware>
+					<ttp:Malware_Instance>
+						<ttp:Type>Relay</ttp:Type>
+						<ttp:Name>KeyLogger</ttp:Name>
+						<ttp:Description structuring_format="HTML5"><![CDATA[<!DOCTYPE html>
+						<html>
+							<body>
+								<p>
+								PErforms Key Logging.
+                					</P>
+							</body>
+						</html>]]>
+						</ttp:Description>
+					</ttp:Malware_Instance>
+				</ttp:Malware>
+			</ttp:Behavior>
+		</stix:TTP>
+		//%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%//
+		/// Stolen Information Locally Stored ////////////////////////////////////////////////////////////////////////////////////////////
+		<stix:TTP timestamp="2015-05-15T09:00:00.000000Z" id="mandiant:ttp-36159b98-3264-4e10-a968-d67975b6272f" xsi:type="ttp:TTPType">
+			<ttp:Title>Stolen Info Locally Stored</ttp:Title>
+			<ttp:Behavior>
+				<ttp:Malware>
+					<ttp:Malware_Instance>
+						<ttp:Type>Relay</ttp:Type>
+						<ttp:Name>FTP</ttp:Name>
+						<ttp:Description structuring_format="HTML5"><![CDATA[<!DOCTYPE html>
+						<html>
+							<body>
+								<p>
+								Locally Stored Stolen Information.
+                					</P>
+							</body>
+						</html>]]>
+						</ttp:Description>
+					</ttp:Malware_Instance>
+				</ttp:Malware>
+			</ttp:Behavior>
+		</stix:TTP>
+		//%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%//
+		/// Encrypted Data /////////////////////////////////////////////////////////////////////////////////////////////////////////////
+		<stix:TTP timestamp="2015-05-15T09:00:00.000000Z" id="mandiant:ttp-38159b98-3264-4e10-a968-d67975b6272f" xsi:type="ttp:TTPType">
+			<ttp:Title>Encrypted Data </ttp:Title>
+			<ttp:Behavior>
+				<ttp:Malware>
+					<ttp:Malware_Instance>
+						<ttp:Type>Relay</ttp:Type>
+						<ttp:Name>Encrypt</ttp:Name>
+						<ttp:Description structuring_format="HTML5"><![CDATA[<!DOCTYPE html>
+						<html>
+							<body>
+								<p>
+								Encrypted Data .
+                					</P>
+							</body>
+						</html>]]>
+						</ttp:Description>
+					</ttp:Malware_Instance>
+				</ttp:Malware>
+			</ttp:Behavior>
+		</stix:TTP>
+
+	// *******************************************************************************************************//
+	// Threat Actors ///////////////////////////////////////////////////////////////////////////////////////////
+	// *******************************************************************************************************//
+	
+//*********************************************************************************************************************//
+//Threat Actor - Black POS ////////////////////////////////////////////////////////////////////////////////////////////
+
+<stix:Threat_Actors>
+        <stix:Threat_Actor id="mandiant:threatactor-10b54231-a99d-431e-9587-34b4cb447e98" xsi:type="ta:ThreatActorType">
+            <ta:Title>BlackPOS_Attacker</ta:Title>
+            <ta:Observed_TTPs>
+                <ta:Observed_TTP>
+                    <stixCommon:Relationship>Uses Malware</stixCommon:Relationship>
+                    <stixCommon:TTP idref="mandiant:ttp-20101cb3-e9fa-46f9-8ec5-ffc9cb0b59f1"/>
+                </ta:Observed_TTP>
+            </ta:Observed_TTPs>
+        </stix:Threat_Actor>
+	</stix:Threat_Actors>
+
+//*********************************************************************************************************************//
+//Threat Actor - Fighter POS ////////////////////////////////////////////////////////////////////////////////////////////
+
+<stix:Threat_Actors>
+        <stix:Threat_Actor id="mandiant:threatactor-14b54231-a99d-431e-9587-34b4cb447e98" xsi:type="ta:ThreatActorType">
+            <ta:Title>FigterPOS_Attacker</ta:Title>
+            <ta:Observed_TTPs>
+                <ta:Observed_TTP>
+                    <stixCommon:Relationship>Uses Malware</stixCommon:Relationship>
+                    <stixCommon:TTP idref="mandiant:ttp-20501cb3-e9fa-46f9-8ec5-ffc9cb0b59f1"/>
+                </ta:Observed_TTP>
+            </ta:Observed_TTPs>
+        </stix:Threat_Actor>
+	</stix:Threat_Actors>
+
+// ****************************************************************************************************************//
+//Threat Actor - Handling TTPS//////////////////////////////////////////////////////////////////////////////////////
+
+
+//^^^^^^^^^^^ Black POS ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^//
+
+<stix:TTP id="mandiant:ttp-20101cb3-e9fa-46f9-8ec5-ffc9cb0b59f1" xsi:type="ttp:TTPType">
+      <ttp:Title> ree4 </ttp:Title>
+        <ttp:Behavior>
+           <ttp:Malware>
+                <ttp:Malware_Instance>
+                     <ttp:Name> ree4 </ttp:Name>
+                </ttp:Malware_Instance>
+           </ttp:Malware>
+        </ttp:Behavior>
+    
+    <ttp:Related_TTPs>
+        <ttp:Related_TTP>
+           <stixCommon:Relationship>Variant Of</stixCommon:Relationship>
+           <stixCommon:TTP idref="mandiant:ttp-100f0cb7-d66f-4e14-a8e6-5927b597f920"/>
+       </ttp:Related_TTP>
+           </ttp:Related_TTPs>
+</stix:TTP>
+
+//^^^^^^^^^^^ Fighter POS ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^//
+
+<stix:TTP id="mandiant:ttp-20501cb3-e9fa-46f9-8ec5-ffc9cb0b59f1" xsi:type="ttp:TTPType">
+      <ttp:Title> AleJandro </ttp:Title>
+        <ttp:Behavior>
+           <ttp:Malware>
+                <ttp:Malware_Instance>
+                     <ttp:Name> AlejandroV </ttp:Name>
+                </ttp:Malware_Instance>
+           </ttp:Malware>
+        </ttp:Behavior>
+    
+    <ttp:Related_TTPs>
+        <ttp:Related_TTP>
+           <stixCommon:Relationship>Variant Of</stixCommon:Relationship>
+           <stixCommon:TTP idref="mandiant:ttp-100f0cb7-d66f-4e14-a8e6-5927b597f920"/>
+       </ttp:Related_TTP>
+           </ttp:Related_TTPs>
+</stix:TTP>
+
+//***********************************************************************************************************************//
+//***   Course of Action ************************************************************************************************//
+//***********************************************************************************************************************//
+
+<stix:Courses_Of_Action>
+        
+	//****************************** COA - Honey Hashes ***************************************//	
+	<stix:Course_Of_Action id="mandiant:courseofaction-70b3d5f6-374b-4488-8688-729b6eedac5b" xsi:type="coa:CourseOfActionType">
+           <coa:Title>Honey Hashes</coa:Title>
+		<coa:Description> "" </coa:Description>
+     	</stix:Course_Of_Action>
+	//****************************** COA - Data Encoding***************************************//	
+     <stix:Course_Of_Action id="mandiant:courseofaction-71b3d5f6-374b-4488-8688-729b6eedac5b" xsi:type="coa:CourseOfActionType">
+           <coa:Title>Data Encoding</coa:Title>
+           <coa:Description> "" </coa:Description>
+     </stix:Course_Of_Action>
+	//****************************** COA - Blocking C2 Comm ***************************************//	
+     <stix:Course_Of_Action id="mandiant:courseofaction-72b3d5f6-374b-4488-8688-729b6eedac5b" xsi:type="coa:CourseOfActionType">
+           <coa:Title>Blocking C2 Comm</coa:Title>
+           <coa:Description> "" </coa:Description>
+     </stix:Course_Of_Action>
+	//****************************** COA - Install Patch***************************************//	
+     <stix:Course_Of_Action id="mandiant:courseofaction-73b3d5f6-374b-4488-8688-729b6eedac5b" xsi:type="coa:CourseOfActionType">
+           <coa:Title>Install Patch</coa:Title>
+           <coa:Description> "" </coa:Description>
+     </stix:Course_Of_Action>
+
+</stix:Courses_Of_Action>
+
+//***********************************************************************************************************//
+// Observable//////////////////////////////////////////////////////////////////////////////////////////////////
+//***********************************************************************************************************//
+
+<stix:Observables cybox_major_version="2" cybox_minor_version="0" cybox_update_version="1">
+
+	//*** Hash *************************************************************************************//
+      <cybox:Observable id="mandiant:observable-6a9697fa-38a2-4ba7-adda-a6eb268099fa">
+            <cybox:Title>MD5 Hash: 927AE15DBF549BD60EDCDEAFB49B829E </cybox:Title>
+	           <cybox:Object id="mandiant:object-2049611d-757c-4d46-830a-bf5becd26f39">
+	                <cybox:Properties xsi:type="FileObj:FileObjectType">
+	                    <FileObj:Hashes>
+     		                   <cyboxCommon:Hash>
+           	                 <cyboxCommon:Type>MD5</cyboxCommon:Type>
+                	            <cyboxCommon:Simple_Hash_Value condition="Equals">927AE15DBF549BD60EDCDEAFB49B829E </cyboxCommon:Simple_Hash_Value>
+                     		   </cyboxCommon:Hash>
+		               </FileObj:Hashes>
+		           </cybox:Properties>
+
+           		<cybox:Related_Objects>
+	                    <cybox:Related_Object idref="mandiant:object-07e2d2f3-092d-436d-bbd6-60d2bdc36d43">
+     			         <cybox:Relationship xsi:type="cyboxVocabs:ObjectRelationshipVocab-1.0">Connected_To</cybox:Relationship>
+                	</cybox:Related_Object>
+	            </cybox:Related_Objects>
+            </cybox:Object>
+        </cybox:Observable>
+	//***Mutex *************************************************************************************//
+        <cybox:Observable id="mandiant:observable-6b9697fa-38a2-4ba7-adda-a6eb268099fa">
+            <cybox:Title>Mutex: Undsa8301nskal</cybox:Title>
+            <cybox:Object id="mandiant:object-363367bd-7460-49bd-9163-55378a0fa666">
+                <cybox:Properties xsi:type="MutexObj:MutexObjectType">
+                    <MutexObj:Name condition="Equals">Undsa8301nskal</MutexObj:Name>
+                </cybox:Properties>
+            </cybox:Object>
+        </cybox:Observable>
+
+	//*** File Obj *********************************************************************************//
+	   <cybox:Observable id="mandiant:observable-6c9697fa-38a2-4ba7-adda-a6eb268099fa">
+            <cybox:Title>File : %APPDATA%\mskrnl</cybox:Title>
+            <cybox:Object id="mandiant:object-f00572b1-7aea-4e32-ae05-1fe8fc194c23">
+                <cybox:Properties xsi:type="FileObj:FileObjectType">
+                    <cyboxCommon:Custom_Properties>
+                        <cyboxCommon:Property condition="Equals" name="ID">%APPDATA%\mskrnl</cyboxCommon:Property>
+                    </cyboxCommon:Custom_Properties>
+                </cybox:Properties>
+            </cybox:Object>
+        </cybox:Observable>
+	//*** Just to Test *****************************************************************************//
+	   <cybox:Observable id="mandiant:observable-6d9697fa-38a2-4ba7-adda-a6eb268099fa">
+            <cybox:Title> Just to Test </cybox:Title>
+            <cybox:Object id="mandiant:object-f00572b1-7aea-4e32-ae05-1fe8fc194c23">
+                <cybox:Properties xsi:type="FileObj:FileObjectType">
+                    <cyboxCommon:Custom_Properties>
+                        <cyboxCommon:Property condition="Equals" name="ID">%APPDATA%\mskrnl</cyboxCommon:Property>
+                    </cyboxCommon:Custom_Properties>
+                </cybox:Properties>
+            </cybox:Object>
+        </cybox:Observable>
+
+</stix:Observables>
+
+//vvv Observable vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv//
+
+
+//****************************************************************************************************************//
+//***********************************************************************************************************//
+// Incidents   ///////////////////////////////////////////////////////////////////////////////////////////////
+//***********************************************************************************************************//
+
+
+//***************************** Black POS *******************************************************************//
+<stix:Incidents>
+	<stix:Incident id="mandiant:incident-84d86106-d801-489b-87b6-d56bac58e6c1" timestamp="2014-09-15T14:37:54.297669+00:00" 	xsi:type='incident:IncidentType' version="1.2">
+            <incident:Title>Victim - Target </incident:Title>
+        	 <incident:COA_Requested>
+         <stixCommon:Course_Of_Action idref="mandiant:courseofaction-70b3d5f6-374b-4488-8688-729b6eedac5b"/>
+           	 </incident:COA_Requested>
+        	 <incident:COA_Requested>
+         <stixCommon:Course_Of_Action idref="mandiant:courseofaction-71b3d5f6-374b-4488-8688-729b6eedac5b"/>
+           	 </incident:COA_Requested>
+        	 <incident:COA_Requested>
+         <stixCommon:Course_Of_Action idref="mandiant:courseofaction-72b3d5f6-374b-4488-8688-729b6eedac5b"/>
+           	 </incident:COA_Requested>
+        </stix:Incident>
+</stix:Incidents>
+<stix:Incidents>
+	<stix:Incident id="mandiant:incident-85d86106-d801-489b-87b6-d56bac58e6c1" timestamp="2014-09-15T14:37:54.297669+00:00" 	xsi:type='incident:IncidentType' version="1.2">
+            <incident:Title>Breaches - 40M  </incident:Title>
+               <incident:Related_Observables>
+			         <incident:Related_Observable idref="mandiant:observable-6d9697fa-38a2-4ba7-adda-a6eb268099fa"/>
+               </incident:Related_Observables>
+        </stix:Incident>
+</stix:Incidents>
+//***************************** Backoff POS *******************************************************************//
+<stix:Incidents>
+	<stix:Incident id="mandiant:incident-86d86106-d801-489b-87b6-d56bac58e6c1" timestamp="2014-09-15T14:37:54.297669+00:00" 	xsi:type='incident:IncidentType' version="1.2">
+           <incident:Title>Victim - USA Postal Service </incident:Title>
+        	 <incident:COA_Requested>
+         <stixCommon:Course_Of_Action idref="mandiant:courseofaction-70b3d5f6-374b-4488-8688-729b6eedac5b"/>
+           	 </incident:COA_Requested>
+        	 <incident:COA_Requested>
+         <stixCommon:Course_Of_Action idref="mandiant:courseofaction-71b3d5f6-374b-4488-8688-729b6eedac5b"/>
+           	 </incident:COA_Requested>
+        	 <incident:COA_Requested>
+         <stixCommon:Course_Of_Action idref="mandiant:courseofaction-72b3d5f6-374b-4488-8688-729b6eedac5b"/>
+           	 </incident:COA_Requested>
+        </stix:Incident>
+</stix:Incidents>
+<stix:Incidents>
+	<stix:Incident id="mandiant:incident-87d86106-d801-489b-87b6-d56bac58e6c1" timestamp="2014-09-15T14:37:54.297669+00:00" 	xsi:type='incident:IncidentType' version="1.2">
+        <incident:Title>Breaches - 104K  </incident:Title>
+        </stix:Incident>
+</stix:Incidents>
+//***************************** Malum POS *******************************************************************//
+<stix:Incidents>
+	<stix:Incident id="mandiant:incident-88d86106-d801-489b-87b6-d56bac58e6c1" timestamp="2014-09-15T14:37:54.297669+00:00" 	xsi:type='incident:IncidentType' version="1.2">
+            <incident:Title>Victim - Hotels e.g Hayat</incident:Title>
+        	 <incident:COA_Requested>
+         <stixCommon:Course_Of_Action idref="mandiant:courseofaction-70b3d5f6-374b-4488-8688-729b6eedac5b"/>
+           	 </incident:COA_Requested>
+        	 <incident:COA_Requested>
+         <stixCommon:Course_Of_Action idref="mandiant:courseofaction-71b3d5f6-374b-4488-8688-729b6eedac5b"/>
+           	 </incident:COA_Requested>
+        	 <incident:COA_Requested>
+         <stixCommon:Course_Of_Action idref="mandiant:courseofaction-72b3d5f6-374b-4488-8688-729b6eedac5b"/>
+           	 </incident:COA_Requested>
+        </stix:Incident>
+</stix:Incidents>
+<stix:Incidents>
+	<stix:Incident id="mandiant:incident-89d86106-d801-489b-87b6-d56bac58e6c1" timestamp="2014-09-15T14:37:54.297669+00:00" 	xsi:type='incident:IncidentType' version="1.2">
+            <incident:Title>Locations - 250  </incident:Title>
+        </stix:Incident>
+</stix:Incidents>
+//***************************** Punkey POS *******************************************************************//
+<stix:Incidents>
+	<stix:Incident id="mandiant:incident-90d86106-d801-489b-87b6-d56bac58e6c1" timestamp="2014-09-15T14:37:54.297669+00:00" 	xsi:type='incident:IncidentType' version="1.2">
+            <incident:Title>Victim - Resturent e.g. J John's </incident:Title>
+        	 <incident:COA_Requested>
+         <stixCommon:Course_Of_Action idref="mandiant:courseofaction-70b3d5f6-374b-4488-8688-729b6eedac5b"/>
+           	 </incident:COA_Requested>
+        	 <incident:COA_Requested>
+         <stixCommon:Course_Of_Action idref="mandiant:courseofaction-71b3d5f6-374b-4488-8688-729b6eedac5b"/>
+           	 </incident:COA_Requested>
+        	 <incident:COA_Requested>
+         <stixCommon:Course_Of_Action idref="mandiant:courseofaction-72b3d5f6-374b-4488-8688-729b6eedac5b"/>
+           	 </incident:COA_Requested>
+        </stix:Incident>
+</stix:Incidents>
+//***************************** Fighter POS *******************************************************************//
+<stix:Incidents>
+	<stix:Incident id="mandiant:incident-91d86106-d801-489b-87b6-d56bac58e6c1" timestamp="2014-09-15T14:37:54.297669+00:00" 	xsi:type='incident:IncidentType' version="1.2">
+            <incident:Title>Victim - Brazilion Organizations</incident:Title>
+        	 <incident:COA_Requested>
+         <stixCommon:Course_Of_Action idref="mandiant:courseofaction-70b3d5f6-374b-4488-8688-729b6eedac5b"/>
+           	 </incident:COA_Requested>
+        	 <incident:COA_Requested>
+         <stixCommon:Course_Of_Action idref="mandiant:courseofaction-71b3d5f6-374b-4488-8688-729b6eedac5b"/>
+           	 </incident:COA_Requested>
+        	 <incident:COA_Requested>
+         <stixCommon:Course_Of_Action idref="mandiant:courseofaction-72b3d5f6-374b-4488-8688-729b6eedac5b"/>
+           	 </incident:COA_Requested>
+        </stix:Incident>
+</stix:Incidents>
+<stix:Incidents>
+	<stix:Incident id="mandiant:incident-92d86106-d801-489b-87b6-d56bac58e6c1" timestamp="2014-09-15T14:37:54.297669+00:00" 	xsi:type='incident:IncidentType' version="1.2">
+            <incident:Title> Breaches - 22K  </incident:Title>
+     
+            </stix:Incident>
+</stix:Incidents>
+
+
+
+//***********************************************************************************************************//
+//***********************************************************************************************************//
+// Indicators   ///////////////////////////////////////////////////////////////////////////////////////////////
+//***********************************************************************************************************//
+
+
+//^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^//
+//****Black POS Indicators     *****************************************************************************//
+//vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv//
+    <stix:Indicators>
+	  //************************************************************************************************************/
+        <stix:Indicator id="mandient:indicator-4172b570-476e-4e3b-9dd9-f36ebd0a6295" xsi:type="indicator:IndicatorType">
+            <indicator:Title>Protocol - FTP  </indicator:Title>
+	       <indicator:Type xsi:type="stixVocabs:IndicatorTypeVocab-1.0"> </indicator:Type>
+            <indicator:Observable idref="mandiant:observable-6d9697fa-38a2-4ba7-adda-a6eb268099fa"/>
+         </stix:Indicator>
+	   //************************************************************************************************************/
+        <stix:Indicator id="mandient:indicator-4272b570-476e-4e3b-9dd9-f36ebd0a6295" xsi:type="indicator:IndicatorType">
+            <indicator:Title>Domain Name - smtp.gmail.com</indicator:Title>
+	       <indicator:Type xsi:type="stixVocabs:IndicatorTypeVocab-1.0"> </indicator:Type>
+        </stix:Indicator>
+
+	   //************************************************************************************************************/
+        <stix:Indicator id="mandient:indicator-4372b570-476e-4e3b-9dd9-f36ebd0a6295" xsi:type="indicator:IndicatorType">
+            <indicator:Title>File - winxml.dll </indicator:Title>
+	       <indicator:Type xsi:type="stixVocabs:IndicatorTypeVocab-1.0"> </indicator:Type>
+        </stix:Indicator>
+	   //************************************************************************************************************/
+        <stix:Indicator id="mandient:indicator-4472b570-476e-4e3b-9dd9-f36ebd0a6295" xsi:type="indicator:IndicatorType">
+            <indicator:Title>Reg Key - HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\Root\"LEGACY_POSWDS"</indicator:Title>
+	       <indicator:Type xsi:type="stixVocabs:IndicatorTypeVocab-1.0"> </indicator:Type>
+        </stix:Indicator>
+//^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^//
+//****Backoff POS Indicators     *****************************************************************************//
+//vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv//
+    
+	<stix:Indicators>
+	  //************************************************************************************************************/
+        <stix:Indicator id="mandient:indicator-5172b570-476e-4e3b-9dd9-f36ebd0a6295" xsi:type="indicator:IndicatorType">
+            <indicator:Title>Protocol - HTTP  </indicator:Title>
+	       <indicator:Type xsi:type="stixVocabs:IndicatorTypeVocab-1.0"> </indicator:Type>
+        </stix:Indicator>
+	   //************************************************************************************************************/
+        <stix:Indicator id="mandient:indicator-5272b570-476e-4e3b-9dd9-f36ebd0a6295" xsi:type="indicator:IndicatorType">
+            <indicator:Title>CnC </indicator:Title>
+	       <indicator:Type xsi:type="stixVocabs:IndicatorTypeVocab-1.0"> </indicator:Type>
+        </stix:Indicator>
+
+	   //************************************************************************************************************/
+        <stix:Indicator id="mandient:indicator-5372b570-476e-4e3b-9dd9-f36ebd0a6295" xsi:type="indicator:IndicatorType">
+            <indicator:Title>API -  CopyFileA API</indicator:Title>
+	       <indicator:Type xsi:type="stixVocabs:IndicatorTypeVocab-1.0"> </indicator:Type>
+        </stix:Indicator>
+	   //************************************************************************************************************/
+        <stix:Indicator id="mandient:indicator-5472b570-476e-4e3b-9dd9-f36ebd0a6295" xsi:type="indicator:IndicatorType">
+            <indicator:Title>Mutex - uhYtntr56uisGst</indicator:Title>
+	       <indicator:Type xsi:type="stixVocabs:IndicatorTypeVocab-1.0"> </indicator:Type>
+        </stix:Indicator>
+//^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^//
+//****Punkey POS Indicators     *****************************************************************************//
+//vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv//
+    
+	<stix:Indicators>
+	  //************************************************************************************************************/
+        <stix:Indicator id="mandient:indicator-6172b570-476e-4e3b-9dd9-f36ebd0a6295" xsi:type="indicator:IndicatorType">
+            <indicator:Title>CnC  </indicator:Title>
+	       <indicator:Type xsi:type="stixVocabs:IndicatorTypeVocab-1.0"> </indicator:Type>
+        </stix:Indicator>
+
+    </stix:Indicators>
+//****************************************************************************************************************//
+//^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^//
+//****Fighter POS Indicators     *****************************************************************************//
+//vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv//
+    
+	<stix:Indicators>
+	  //************************************************************************************************************/
+        <stix:Indicator id="mandient:indicator-7172b570-476e-4e3b-9dd9-f36ebd0a6295" xsi:type="indicator:IndicatorType">
+            <indicator:Title>Disable Sec Devices</indicator:Title>
+	       <indicator:Type xsi:type="stixVocabs:IndicatorTypeVocab-1.0"> </indicator:Type>
+        </stix:Indicator>
+	   //************************************************************************************************************/
+        <stix:Indicator id="mandient:indicator-7272b570-476e-4e3b-9dd9-f36ebd0a6295" xsi:type="indicator:IndicatorType">
+            <indicator:Title>CnC </indicator:Title>
+	       <indicator:Type xsi:type="stixVocabs:IndicatorTypeVocab-1.0"> </indicator:Type>
+        </stix:Indicator>
+
+	   //************************************************************************************************************/
+        <stix:Indicator id="mandient:indicator-7372b570-476e-4e3b-9dd9-f36ebd0a6295" xsi:type="indicator:IndicatorType">
+            <indicator:Title>DDOS</indicator:Title>
+	       <indicator:Type xsi:type="stixVocabs:IndicatorTypeVocab-1.0"> </indicator:Type>
+        </stix:Indicator>
+	   //************************************************************************************************************/
+        <stix:Indicator id="mandient:indicator-7472b570-476e-4e3b-9dd9-f36ebd0a6295" xsi:type="indicator:IndicatorType">
+            <indicator:Title>Worm</indicator:Title>
+	       <indicator:Type xsi:type="stixVocabs:IndicatorTypeVocab-1.0"> </indicator:Type>
+        </stix:Indicator>
+
+//***********************************************************************************************************//
+//***********************************************************************************************************//
+// Exploits - ExploitTarget////////////////////////////////////////////////////////////////////////////////////
+//***********************************************************************************************************//
+
+<stix:Exploit_Targets>
+
+	<stixCommon:Exploit_Target id="mandient:et-8a655a6f-e70c-4e3f-b21a-f663b5732f97" timestamp="2016-09-28T15:46:32.979614Z" 	xsi:type="et:ExploitTargetType">
+		<et:Title>Javascript vul in MSIE 6-11</et:Title>
+			<et:Vulnerability>
+				<et:CVE_ID>CVE-2013-3893</et:CVE_ID>
+					<et:References>
+						<stixCommon:Reference>
+							https://technet.microsoft.com/library/security/2887506
+						</stixCommon:Reference>
+					</et:References>
+				<et:Affected_Software> Java </et:Affected_Software>
+			</et:Vulnerability>
+            <et:Potential_COAs>
+                <et:Potential_COA>
+                    <stixCommon:Course_Of_Action idref="mandiant:courseofaction-73b3d5f6-374b-4488-8688-729b6eedac5b"/>
+                </et:Potential_COA>
+            </et:Potential_COAs>
+	</stixCommon:Exploit_Target>
+
+	<stixCommon:Exploit_Target id="mandient:et-8b655a6f-e70c-4e3f-b21a-f663b5732f97" timestamp="2016-09-28T15:46:32.979614Z" 	xsi:type="et:ExploitTargetType">
+		<et:Title>Javascript vul in MSIE 6-12</et:Title>
+			<et:Vulnerability>
+				<et:CVE_ID>CVE-2013-3893</et:CVE_ID>
+					<et:References>
+						<stixCommon:Reference>
+							https://technet.microsoft.com/library/security/2887506
+						</stixCommon:Reference>
+					</et:References>
+				<et:Affected_Software> Java </et:Affected_Software>
+			</et:Vulnerability>
+            <et:Potential_COAs>
+                <et:Potential_COA>
+                    <stixCommon:Course_Of_Action idref="mandiant:courseofaction-73b3d5f6-374b-4488-8688-729b6eedac5b"/>
+                </et:Potential_COA>
+            </et:Potential_COAs>
+	</stixCommon:Exploit_Target>
+</stix:Exploit_Targets>
+//&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&//
+
+//<stixCommon:Relationship>Uses Malware</stixCommon:Relationship>
+//<stixCommon:TTP idref="mandiant:ttp-0f01c5a3-f516-4450-9381-4dd9f2279411"/>
+
+
+</stix:STIX_Package>

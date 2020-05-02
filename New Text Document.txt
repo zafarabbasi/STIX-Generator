@@ -1,0 +1,203 @@
+<stix:Campaigns>
+<stix:Campaign id="apt:campaign_1" xsi:Type = "campaign:CampaignType">
+ <campaign:Title>Black POS</campaign:Title>
+ <campaign:Related_TTPs>
+
+<campaign:Related_TTP>
+<stixCommon:Relationship> Uses Malware</stixCommon:Relationship>
+
+<stixCommon:TTP idref="apt:ttp_MemoryScraping" /> 
+
+</campaign:Related_TTP>
+
+<campaign:Related_TTP>
+<stixCommon:Relationship> Uses Malware</stixCommon:Relationship>
+
+<stixCommon:TTP idref="apt:ttp_StolenInfoLocallyStored" /> 
+
+</campaign:Related_TTP>
+
+</campaign:Related_TTPs> 
+
+<campaign:Related_Incidents>
+<campaign:Related_Incident>
+<stixCommon:Relationship>Uses Malware</stixCommon:Relationship>
+<stixCommon:Incident idref="apt:incident-Victim-Target" />
+</campaign:Related_Incident>
+<campaign:Related_Incident>
+<stixCommon:Relationship>Uses Malware</stixCommon:Relationship>
+<stixCommon:Incident idref="apt:incident-Breaches-40M" />
+</campaign:Related_Incident>
+</campaign:Related_Incidents>
+<campaign:Related_Indicators>
+<campaign:Related_Indicator>
+<stixCommon:Relationship> Uses Malware</stixCommon:Relationship>
+<stixCommon:Indicator idref="apt:indicator-Protocol-FTP"/>
+</campaign:Related_Indicator>
+<campaign:Related_Indicator>
+<stixCommon:Relationship> Uses Malware</stixCommon:Relationship>
+<stixCommon:Indicator idref="apt:indicator-DomainName-smtp.gmail.com"/>
+</campaign:Related_Indicator>
+<campaign:Related_Indicator>
+<stixCommon:Relationship> Uses Malware</stixCommon:Relationship>
+<stixCommon:Indicator idref="apt:indicator-File-winxml.dll"/>
+</campaign:Related_Indicator>
+</campaign:Related_Indicators>
+<campaign:Attribution>
+<campaign:Attributed_Threat_Actor>
+<stixCommon:Threat_Actor idref="apt:threatactor-TA-ree4" /> 
+</campaign:Attributed_Threat_Actor>
+</campaign:Attribution>
+</stix:Campaign>
+<stix:Campaigns>
+<stix:Campaign id="apt:campaign_2" xsi:Type = "campaign:CampaignType">
+ <campaign:Title>BackOff</campaign:Title>
+ <campaign:Related_TTPs>
+ <campaign:Related_TTP>
+<stixCommon:Relationship> Uses Malware</stixCommon:Relationship>
+<stixCommon:TTP idref="apt:ttp_MemoryScraping" /> 
+</campaign:Related_TTP>
+ <campaign:Related_TTP>
+<stixCommon:Relationship> Uses Malware</stixCommon:Relationship>
+<stixCommon:TTP idref="apt:ttp_KeyLogging" /> 
+</campaign:Related_TTP>
+ </campaign:Related_TTPs> 
+<campaign:Related_Incidents>
+<campaign:Related_Incident>
+<stixCommon:Relationship>Uses Malware</stixCommon:Relationship>
+<stixCommon:Incident idref="apt:incident-Victim-USPostalService" />
+</campaign:Related_Incident>
+<campaign:Related_Incident>
+<stixCommon:Relationship>Uses Malware</stixCommon:Relationship>
+<stixCommon:Incident idref="apt:incident-Breaches-104K" />
+</campaign:Related_Incident>
+</campaign:Related_Incidents>
+<campaign:Related_Indicators>
+<campaign:Related_Indicator>
+<stixCommon:Relationship> Uses Malware</stixCommon:Relationship>
+<stixCommon:Indicator idref="apt:indicator-Protocol-HTTP"/>
+</campaign:Related_Indicator>
+<campaign:Related_Indicator>
+<stixCommon:Relationship> Uses Malware</stixCommon:Relationship>
+<stixCommon:Indicator idref="apt:indicator-CnC-CommandAndControl"/>
+</campaign:Related_Indicator>
+<campaign:Related_Indicator>
+<stixCommon:Relationship> Uses Malware</stixCommon:Relationship>
+<stixCommon:Indicator idref="apt:indicator-API-CopyFileAAPI"/>
+</campaign:Related_Indicator>
+<campaign:Related_Indicator>
+<stixCommon:Relationship> Uses Malware</stixCommon:Relationship>
+<stixCommon:Indicator idref="apt:indicator-Mutex-uhytntr56uisGGst"/>
+</campaign:Related_Indicator>
+</campaign:Related_Indicators>
+<campaign:Attribution>
+</campaign:Attribution>
+</stix:Campaign>
+<stix:Campaigns>
+<stix:Campaign id="apt:campaign_3" xsi:Type = "campaign:CampaignType">
+ <campaign:Title>MalumPOS</campaign:Title>
+ <campaign:Related_TTPs>
+ <campaign:Related_TTP>
+<stixCommon:Relationship> Uses Malware</stixCommon:Relationship>
+<stixCommon:TTP idref="apt:ttp_MemoryScraping" /> 
+</campaign:Related_TTP>
+ <campaign:Related_TTP>
+<stixCommon:Relationship> Uses Malware</stixCommon:Relationship>
+<stixCommon:TTP idref="apt:ttp_StolenInfoLocallyStored" /> 
+</campaign:Related_TTP>
+ <campaign:Related_TTP>
+<stixCommon:Relationship> Uses Malware</stixCommon:Relationship>
+<stixCommon:TTP idref="apt:ttp_EncryptedData" /> 
+</campaign:Related_TTP>
+ </campaign:Related_TTPs> 
+<campaign:Related_Incidents>
+<campaign:Related_Incident>
+<stixCommon:Relationship>Uses Malware</stixCommon:Relationship>
+<stixCommon:Incident idref="apt:incident-Victim-Hotels-Hayat" />
+</campaign:Related_Incident>
+<campaign:Related_Incident>
+<stixCommon:Relationship>Uses Malware</stixCommon:Relationship>
+<stixCommon:Incident idref="apt:incident-Breaches-250" />
+</campaign:Related_Incident>
+</campaign:Related_Incidents>
+<campaign:Related_Indicators>
+</campaign:Related_Indicators>
+<campaign:Attribution>
+</campaign:Attribution>
+</stix:Campaign>
+<stix:Campaigns>
+<stix:Campaign id="apt:campaign_4" xsi:Type = "campaign:CampaignType">
+ <campaign:Title>PunkeyPOS</campaign:Title>
+ <campaign:Related_TTPs>
+ <campaign:Related_TTP>
+<stixCommon:Relationship> Uses Malware</stixCommon:Relationship>
+<stixCommon:TTP idref="apt:ttp_KeyLogging" /> 
+</campaign:Related_TTP>
+ <campaign:Related_TTP>
+<stixCommon:Relationship> Uses Malware</stixCommon:Relationship>
+<stixCommon:TTP idref="apt:ttp_MemoryScraping" /> 
+</campaign:Related_TTP>
+ </campaign:Related_TTPs> 
+<campaign:Related_Incidents>
+<campaign:Related_Incident>
+<stixCommon:Relationship>Uses Malware</stixCommon:Relationship>
+<stixCommon:Incident idref="apt:incident-Victim-Resturants-JJohns" />
+</campaign:Related_Incident>
+</campaign:Related_Incidents>
+<campaign:Related_Indicators>
+<campaign:Related_Indicator>
+<stixCommon:Relationship> Uses Malware</stixCommon:Relationship>
+<stixCommon:Indicator idref="apt:indicator-CnC-CommandAndControl"/>
+</campaign:Related_Indicator>
+</campaign:Related_Indicators>
+<campaign:Attribution>
+</campaign:Attribution>
+</stix:Campaign>
+<stix:Campaigns>
+<stix:Campaign id="apt:campaign_5" xsi:Type = "campaign:CampaignType">
+ <campaign:Title>FighterPOS</campaign:Title>
+ <campaign:Related_TTPs>
+ <campaign:Related_TTP>
+<stixCommon:Relationship> Uses Malware</stixCommon:Relationship>
+<stixCommon:TTP idref="apt:ttp_MemoryScraping" /> 
+</campaign:Related_TTP>
+ <campaign:Related_TTP>
+<stixCommon:Relationship> Uses Malware</stixCommon:Relationship>
+<stixCommon:TTP idref="apt:ttp_EncryptedData" /> 
+</campaign:Related_TTP>
+ </campaign:Related_TTPs> 
+<campaign:Related_Incidents>
+<campaign:Related_Incident>
+<stixCommon:Relationship>Uses Malware</stixCommon:Relationship>
+<stixCommon:Incident idref="apt:incident-Victim-BrazilionOrganizations" />
+</campaign:Related_Incident>
+<campaign:Related_Incident>
+<stixCommon:Relationship>Uses Malware</stixCommon:Relationship>
+<stixCommon:Incident idref="apt:incident-Breaches-22K" />
+</campaign:Related_Incident>
+</campaign:Related_Incidents>
+<campaign:Related_Indicators>
+<campaign:Related_Indicator>
+<stixCommon:Relationship> Uses Malware</stixCommon:Relationship>
+<stixCommon:Indicator idref="apt:indicator-DSD-DisableSecDevices"/>
+</campaign:Related_Indicator>
+<campaign:Related_Indicator>
+<stixCommon:Relationship> Uses Malware</stixCommon:Relationship>
+<stixCommon:Indicator idref="apt:indicator-CnC-CommandAndControl"/>
+</campaign:Related_Indicator>
+<campaign:Related_Indicator>
+<stixCommon:Relationship> Uses Malware</stixCommon:Relationship>
+<stixCommon:Indicator idref="apt:indicator-DDoS-DDoS"/>
+</campaign:Related_Indicator>
+<campaign:Related_Indicator>
+<stixCommon:Relationship> Uses Malware</stixCommon:Relationship>
+<stixCommon:Indicator idref="apt:indicator-Worm-Worm"/>
+</campaign:Related_Indicator>
+</campaign:Related_Indicators>
+<campaign:Attribution>
+<campaign:Attributed_Threat_Actor>
+<stixCommon:Threat_Actor idref="apt:threatactor-TA-AleJandro" /> 
+</campaign:Attributed_Threat_Actor>
+</campaign:Attribution>
+</stix:Campaign>
+ </stix:Campaigns>
